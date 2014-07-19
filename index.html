@@ -2,9 +2,9 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="autor" content="la .cogas.">
-<meta name="keywords" content="test">
-<meta name="description" content="化学ポテンシャルについて">
+<meta name="author" content="la .cogas.">
+<meta name="keywords" content="はじめてのロジバン, はじロジ, lojban, ロジバン">
+<meta name="description" content="はじめてのロジバン講座">
 <link rel="stylesheet" type="text/css" href="index.css">
 <link rel="import" href="sidebar.html">
 <title>はじめてのロジバン</title>
@@ -12,26 +12,45 @@
 <body>
 
 <div id="wrap">
-	<header class="enclose">
-	<font size="7">はじめてのろじばんっ</font>
-	</header>  
-    <div id="inner">  
-       <div id="mainWrap">
-		<p class="enclose">ここがメインスペースだよっ</p>
-		</div>
-		<div id="sideWrap">
-		</div>  
-	<div class="clear"><hr /></div>
-    </div><!-- /inner -->
-	<footer>
-	<p> Copyright: la .cogas. </p>
-	</footer>  
-</div><!-- /wrap -->
+<header class="enclose"><font size="7">はじめてのろじばんっ(仮)</font></header>  
+<div id="inner">  
+<div id="mainWrap">
+<p>
+<div class="enclose">
+<h1>ただいま基板工事中です</h1>
+<p>入門コース鋭意調整中です！大体終わってます。</p>
+<p>初級コースはほとんど完成していますが、βテスト解除するまでは暫定版であり続けます。</p>
+<p>あとは章末問題の充実とか、誤植の訂正とかをやっていきます。大筋は完成しています。</p>
 
+<p>初級コースのmeに関しては修正中です。</p>
+
+<h1 >fi'e do .ui</h1>
+<p>ようこそ！このサイトは、ロジバン入門講座です！<br>
+ロジバンは人工言語の中でも、専門の文法用語の多さや、独特な文法構造のせいで難しいと思われがちです。<br>
+しかし、ロジバンは従来の自然言語の「贅肉」を取り払った、非常にシンプルな言語だと言えます！<br>
+このサイトでは、こしょん(kocon),そら（soran),セヴァン(sevan)といった女の子たちの会話をききながら、<br>
+楽しくロジバン文法の基礎を学ぶことができます。</p>
+<h2 >登場人物</h2>
+<img src="pixra/koc1.png">
+<img src="pixra/sor2.png">
+<img src="pixra/sev2.png">
+
+
+</div>
+</p>
+</div>
+	
+<div id="sideWrap"><p class="enclose">ここがサイドバーなのだああ</p></div>  
+<div class="clear"><hr /></div>
+</div>
+<footer><p> Copyright: la .cogas. </p></footer>  
+</div>
+
+<!-- サイドバーの共有 -->
 <script >
 var link = document.querySelector('link[rel="import"]');
 var content = link.import;
-var el = content.querySelector('.sidebar');
+var el = content.querySelector('body');
 
 document.getElementById("sideWrap").appendChild(el.cloneNode(true));
 </script>

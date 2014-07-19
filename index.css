@@ -2,26 +2,22 @@
 <!--
 
 body { text-align:center; }  
-#wrap { width:780px; text-align:left; margin:0 auto; }  
+#wrap { width:1000px; text-align:left; margin:0 auto; }  
 #inner { margin:0 10px; }  
-#mainWrap { width:500px; float:right; }  
-#sideWrap { width:250px; float:left; }  
+#mainWrap { width:700px; float:right; }  
+#sideWrap { width:270px; float:left; }  
 
 .clear { clear:both; }  
 .clear hr { display:none; }  
 
-
-section{/*全体枠*/
-  width: 98%;/*全体の幅*/
-  border-left: solid 4px #665e51;/*枠色*/
-  border-bottom: solid 1px #665e51;
-  }
+body{/*内容部分*/
+  font-size: 10.5pt;/*文字サイズ*/
+  color: #665e51;/*文字色*/
+}
 
 h1{/*タイトル部分*/
-  width: 95%;
+  width: 90%;
   font-size: 20pt;/*文字サイズ*/
-  font-family: Impact,Arial,Verdana,sans-serif;
-  letter-spacing: 0.2em;
   color: #e6d9b9;/*文字色*/
   background-color: #665e51;/*背景色*/
   padding: 1px 1em 1px 0.7em;
@@ -32,8 +28,6 @@ h1{/*タイトル部分*/
 h2{/*タイトル部分*/
   width: 90%;
   font-size: 14pt;/*文字サイズ*/
-  font-family: Arial,Verdana,sans-serif;
-  letter-spacing: 0.1em;
   color: #e6d9b9;/*文字色*/
   background-color: #665e51;/*背景色*/
   padding: 1px 1em 1px 0.7em;
@@ -51,7 +45,6 @@ dfn{
 
 .enclose{
 	padding-left:1em;
-    padding-top:1em;
     border:3px solid #bf545e;
     border-radius:10px;
 }
