@@ -7,9 +7,7 @@
 <meta name="description" content="化学ポテンシャルについて">
 <link rel="stylesheet" type="text/css" href="index.css">
 <link rel="import" href="sidebar.html">
-<script type="text/javascript" src="sidebar.js"></script>
-
-<title>title</title>
+<title>はじめてのロジバン</title>
 </head>
 <body>
 
@@ -29,6 +27,14 @@
 	<p> Copyright: la .cogas. </p>
 	</footer>  
 </div><!-- /wrap -->
+
+<script >
+var link = document.querySelector('link[rel="import"]');
+var content = link.import;
+var el = content.querySelector('.sidebar');
+
+document.getElementById("sideWrap").appendChild(el.cloneNode(true));
+</script>
 
 </body>
 </html>
