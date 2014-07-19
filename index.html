@@ -5,8 +5,8 @@
 <meta name="author" content="la .cogas.">
 <meta name="keywords" content="はじめてのロジバン, はじロジ, lojban, ロジバン">
 <meta name="description" content="はじめてのロジバン講座">
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="index.css">
-<link rel="import" href="sidebar.html">
 <title>はじめてのロジバン</title>
 </head>
 <body>
@@ -39,8 +39,7 @@
 </div>
 </p>
 </div>
-	
-<div id="sideWrap"><p class="enclose">ここがサイドバーなのだああ</p></div>  
+<div id="sideWrap"><p class="enclose">ここがサイドバーなのだああ</p><div id="sideContents"></div></div>
 <div class="clear"><hr /></div>
 </div>
 <footer><p> Copyright: la .cogas. </p></footer>  
@@ -48,11 +47,9 @@
 
 <!-- サイドバーの共有 -->
 <script >
-var link = document.querySelector('link[rel="import"]');
-var content = link.import;
-var el = content.querySelector('body');
-
-document.getElementById("sideWrap").appendChild(el.cloneNode(true));
+$(function(){
+    $("#sideContents").load("sidebar.html");
+})
 </script>
 
 </body>
