@@ -7,7 +7,7 @@
 <meta name="description" content="化学ポテンシャルについて">
 <link rel="stylesheet" type="text/css" href="index.css">
 <link rel="import" href="sidebar.html">
-<link rel="import" href="bootstrap.html">
+
 
 <title>title</title>
 </head>
@@ -22,21 +22,20 @@
 		<p class="enclose">ここがメインスペースだよっ</p>
 		</div>
 		<div id="sideWrap">
-  			<script>
-    			var link = document.querySelector('link[rel="import"]');
-    			var content = link.import;
-    			var el = content.querySelector('.sidebar');
-
-			    document.body.appendChild(el.cloneNode(true));
-			  </script>
 		</div>  
 	<div class="clear"><hr /></div>
     </div><!-- /inner -->
 	<footer>
 	<p> Copyright: la .cogas. </p>
 	</footer>  
-</div><!-- /wrap -->  
+</div><!-- /wrap -->
 
+<script>
+	var link = document.querySelector('link[rel="import"]');
+	var content = link.import;
+	var el = content.querySelector('.sidebar');
+    document.getElementById("sideWrap").appendChild(el.cloneNode(true));
+</script>
 
 </body>
 </html>
