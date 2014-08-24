@@ -4,8 +4,8 @@
 body { text-align:center; }  
 #wrap { width:1000px; text-align:left; margin:0 auto; }  
 #inner { margin:0 10px; }  
-#mainWrap { width:700px; float:right; }  
-#sideWrap { width:270px; float:left; }  
+#mainWrap { width:700px; float:right;}  
+#sideWrap { width:270px; float:left;}  
 
 .clear { clear:both; }  
 .clear hr { display:none; }  
@@ -39,7 +39,7 @@ h3{
   width: 90%;
   font-size: 14pt;/*文字サイズ*/
   color: #149bdf;/*文字色*/
-  padding: 1px 1em 1px 0.7em;
+  padding: 1px 1em 5px 0.7em;
   border-left: solid 3px #9abca4;
   border-bottom: dashed 2px #9abca4;
   filter: alpha(opacity=100,finishopacity=10,style=1);  
@@ -59,6 +59,7 @@ dfn{
 }
 
 .enclose{
+	margin:0px,10px,0px,0px;
 	padding-left:1em;
     border:3px solid #bf545e;
     border-radius:10px;
@@ -132,11 +133,12 @@ hr{
 }
 
 .icon{
+	border: 1px #000000 solid;
 	float:left;
-    height:80px;
-	width: 80px;
-    margin-right:20px;
-    margin-top: -5px;
+    height: 65px;
+	width: 65px;
+    margin-right: 1em;
+    margin-top: -10px;
     margin-bottom: 10px;
 }
 
