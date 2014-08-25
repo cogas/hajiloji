@@ -71,7 +71,7 @@ dfn{
 .subsection{
 	margin-top:1.5em;
 	padding-left:0.5em;
-    padding-right:1em;
+    padding-right: 0.5em;
     border-left: 1px solid #a5a79a;
 }
 
@@ -127,6 +127,18 @@ dfn{
 }
 
 .list1 li{
+    margin-bottom: 5px;
+}
+
+.sidelist {
+	font-size:10pt;
+	list-style-type:square;
+    margin: 1em;
+    padding-left:2em;
+	border-left: solid 3px #eabd00;
+}
+
+.sidelist li{
     margin-bottom: 5px;
 }
 
