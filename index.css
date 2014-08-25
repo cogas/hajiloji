@@ -46,16 +46,26 @@ h3{
 }
 
 dfn{
-    color : #149bdf;
     font-style:normal;
-    font-weight:bold;
-    
+    font-weight:bold;    
+}
+
+.titlebar{
+	background-color:#149bdf;
+	padding: 10px 0.5em 10px 0.5em;
+    border: 2px solid #149bdf;
+    border-radius:4px;
+    font-size:40px;
+    font-weight:bolder;
+    color:#e2e65b;
+    letter-spacing:0.2em;          
 }
 
 .mainsection{
 	padding-left:1em;
     padding-right:1em;
-    border:2px dotted #bf545e;
+    border-left: 1px solid #a5a79a;
+    border-right:1px solid #a5a79a;
 }
 
 .enclose{
@@ -73,7 +83,7 @@ dfn{
 
 .note{
 	margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
     margin-right:1em;
 	padding: 0px 0.5em 2px 0.5em;
     border: 2px solid #149bdf;
@@ -88,7 +98,7 @@ dfn{
 
 .problem{
 	margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
     margin-right:1em;
 	padding: 0px 0.5em 2px 0.5em;
     border: 2px solid #665e51;
@@ -99,12 +109,6 @@ dfn{
     font-size:13pt;
     color:#665e51;
     font-weight:bold;    
-}
-
-.drani{
-	padding-left:1em;
-    border:3px solid #bf545e;
-    border-radius:10px;       
 }
 
 .list1 {
@@ -119,13 +123,45 @@ dfn{
     margin-bottom: 5px;
 }
 
-.list2{
-    
+.words {
+	margin-left:3em;
+    margin-right:5em;
+    margin-bottom:2.5em;
+	padding-left: 0.5em;
+    padding-top:0.1em;
+    padding-right:0.1em;
+    padding-bottom:0.5em;
+    border: 1px solid #86a070;
+    border-radius:2px;
+}
+
+.drani{
+	padding-left: 0.5em;
+    padding-top:0.1em;
+    padding-bottom:0.5em;
+    border: 2px dashed #bf545e;
+    border-radius:2px;       
+}
+
+
+.plist li{
+    list-style-type:upper-roman;
+}
+
+.plist li ol{
+	padding-left: 1em;
+    margin-bottom: 0.7em;
+}
+
+.plist li ol li{
+	padding-top: 0.2em;
+    padding-bottom:0.2em;
+    list-style-type:decimal;
 }
 
 hr{
-	margin-left:-0.5em;
-    width: 98%;
+	margin-left: -0.2em;
+    margin-right: 1em;
 	height: 2px;
 	background-color:#a5a79a;
 	border: none;
@@ -142,9 +178,38 @@ hr{
     margin-bottom: 10px;
 }
 
+caption{
+    font-size:small;    
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px #665e51 solid;
+    margin-top:0em;
+    margin-bottom:2.5em;
+}
+
+table,th,td{
+	 border-collapse:collapse;
+}
+
+td,th{
+     border: 1px #665e51 solid;
+	 padding: 3px 7px;
+     margin-left:5em;
+}
+
+#vocab td{
+    font-size:small;
+}
+
+#vocab .meaning{
+    width: 450px;
+}
+
 .clrf{
     clear:both;
-    
 }
 
 footer{
@@ -152,5 +217,31 @@ footer{
     font-size:small;
     text-align:center;
 }
+
+footer .left{
+    float:left;
+    margin-bottom:0.5em;
+}
+
+
+
+footer .right{
+    float:right;
+    margin-bottom:0.5em;
+}
+
+.koc1{    
+}
+.koc2{
+}
+.koc3{
+}
+.sor1{   
+}
+.sev1{
+}
+
+
+
 -->
 </style>
