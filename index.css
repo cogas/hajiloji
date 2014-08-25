@@ -68,6 +68,12 @@ dfn{
     border-right:1px solid #a5a79a;
 }
 
+.mainsection{
+	padding-left:1em;
+    padding-right:1em;
+    border-left: 1px solid #a5a79a;
+}
+
 .enclose{
 	margin:0px,10px,0px,0px;
 	padding-left:1em;
