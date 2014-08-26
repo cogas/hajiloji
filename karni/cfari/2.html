@@ -98,21 +98,49 @@ coi（しょい）こんにちは。<b>セヴァン</b>です。</div>
 </dl>
 
 <div class="koc1">
-<p>さて、私たちの会話が終わると、「<b>まとめ</b>」「<b>章末問題</b>」「<b>今回出てきた単語</b>」と続きます。</p>
-<p>章の復習に役立ててね。</p>
+<p>さて、私たちの会話が終わると、「<b>まとめ</b>」「<b>○×問題</b>」「<b>章末問題</b>」「<b>今回出てきた単語</b>」と続きます。</p>
+<p>章の復習に役立ててね。○×問題は答えはないけど、ボタンを押したら正解数が出るようになってるよ。</p>
 </div>
 
 <div class="sev1">
-こんな感じで進めていくことになるよ。
+と、こんな感じで進めていくことになるよ。
 </div>
 
 <div class="sor2">了解した！ようし、頑張るぞい。</div>
 
 <h2 >まとめ</h2>
 <ul class="list1">
-<li>章は「例文」「この章で学ぶこと」「本編」「まとめ」「章末問題」で構成される。</li>
+<li>章は「例文」「この章で学ぶこと」「本編」「まとめ」「○×問題」「章末問題」で構成される。</li>
 <li >語句やNOTE,章内の問題は線で囲んで表される。</li>
 </ul>
+
+<hr>
+<h3 >○×問題</h3>
+<ol >
+<li >このサイトの略称は「はじパジ」である。<br>
+    <input type="radio" name="q0" value=1 id="q0y" />
+    <label for="q0y" class="radio">○</label>
+    <input type="radio" name="q0" value=0 id="q0n" />
+    <label for="q0n" class="radio">×</label>
+</li>
+<li >セヴァンはそらの妹である。<br>
+    <input type="radio" name="q1" value=1 id="q1y" />
+    <label for="q1y" class="radio">○</label>
+    <input type="radio" name="q1" value=0 id="q1n" />
+    <label for="q1n" class="radio">×</label>
+</li>
+<li >この講座の一番初めのコースの名前は「cifnuコース」である。<br>
+    <input type="radio" name="q2" value=1 id="q2y" />
+    <label for="q2y" class="radio">○</label>
+    <input type="radio" name="q2" value=0 id="q2n" />
+    <label for="q2n" class="radio">×</label>
+</li>
+
+</ol>
+<p><input type="button" onclick="yesnocheck();" value="採点する"></p>
+<div id="yesnoans">-/-問正解！</div>
+<input type="hidden" name="answer" value="011">
+
 
 <hr>
 <h3 >章末問題</h3>
