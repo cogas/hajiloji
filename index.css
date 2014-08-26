@@ -209,6 +209,20 @@ table{
     margin-bottom:2.5em;
 }
 
+.jufra{
+    border:none;
+}
+
+.cfajufra{
+    margin-bottom:1em;
+    border: 2px #fcb034 dashed;
+	font-size:150%;
+}
+
+.jufra,.cfajufra td,th{
+    border:none;
+}
+
 table,th,td{
 	 border-collapse:collapse;
 }
