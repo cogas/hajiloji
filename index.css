@@ -7,12 +7,12 @@ body { text-align:center; }
 #mainWrap { width:900px; float:right;}  
 #sideWrap { width:250px; float:left;}  
 
-.clear { clear:both; }  
+.clear { clear:both; }
 .clear hr { display:none; }  
 
 body{/*内容部分*/
   font-size: 10.5pt;/*文字サイズ*/
-  color: #665e51;/*文字色*/
+  color: #282323  ;   /*文字色*/
 }
 
 h1{/*タイトル部分*/
@@ -163,6 +163,14 @@ dfn{
     border-radius:2px;       
 }
 
+.subsection a{
+    text-decoration: none;
+}
+
+a:link { color:#5161ac;}
+a:visited { color:darkslateblue;}
+a:hover { color:#ef4035;}
+a:active { color:#fcb034;}
 
 .plist li{
     list-style-type:upper-roman;
@@ -337,8 +345,7 @@ input[type=button]{
     color:#ef4035;
     font-size:large;
     font-weight:bold;
-    
-    
+   
 }
 
 
