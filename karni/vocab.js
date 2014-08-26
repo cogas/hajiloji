@@ -11,8 +11,6 @@ $(window).load(function () {
 				.append($("<td class='meaning'></td>").text(dd[i]))
 		);
 	}
-
-
 });
 
 function yesnocheck(){
@@ -32,4 +30,5 @@ function yesnocheck(){
 	}
 	$("#yesnoans").empty().append(cor+"/"+num+"問正解！");
 	if(cor==num) $("#yesnoans").append("全問正解！おめでとう！");
-}
+};
+
