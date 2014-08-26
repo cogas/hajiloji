@@ -2,9 +2,9 @@
 <!--
 
 body { text-align:center; }  
-#wrap { width:1000px; text-align:left; margin:0 auto; }  
+#wrap { width:1200px; text-align:left; margin:0 auto; }  
 #inner { margin:0 10px; }  
-#mainWrap { width:700px; float:right;}  
+#mainWrap { width:900px; float:right;}  
 #sideWrap { width:250px; float:left;}  
 
 .clear { clear:both; }  
