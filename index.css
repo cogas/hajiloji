@@ -219,7 +219,11 @@ table{
 	font-size:150%;
 }
 
-.jufra,.cfajufra td,th{
+.jufra td,th{
+    border:none;
+}
+
+.cfajufra td,th{
     border:none;
 }
 

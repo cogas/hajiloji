@@ -1,3 +1,3 @@
 $(window).load(function () {
-  $('#sideWrap').load('sidebar.html');
+  $('#sideWrap').load('http://cogas.github.io/hajiloji/sidebar.html');
 });

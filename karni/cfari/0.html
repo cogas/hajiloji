@@ -5,11 +5,20 @@
 <meta name="author" content="la .cogas.">
 <meta name="keywords" content="はじめてのロジバン, はじロジ, lojban, ロジバン">
 <meta name="description" content="はじめてのロジバン講座">
-<link rel="stylesheet" type="text/css" href="../../index.css">
+<!--
+相対パス基準はcogas.github.io/hajiloji に固定すること。
+template.htmlの階層であれば、<BASE href="..">にすること。
+これより下の階層では、<BASE href="../..">にすること。
+
+icon.js, vocab.js は karni/にある。
+sidebar.js, sidebar.html, index.css は hajiloji/にある。
+ -->
+<BASE href="../../">
+<link rel="stylesheet" type="text/css" href="index.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"  type="text/javascript"></script>
-<script type="text/javascript" src="../sidebar.js"></script>
-<script type="text/javascript" src="icon.js"></script>
-<script type="text/javascript" src="../vocab.js"></script>
+<script type="text/javascript" src="sidebar.js"></script>
+<script type="text/javascript" src="karni/icon.js"></script>
+<script type="text/javascript" src="karni/vocab.js"></script>
 
 <title>登場人物</title>
 </head>
@@ -25,7 +34,7 @@
 
 <table>
 <tr >
-<td ><img src="../../pixra/koc1.png"></td>
+<td ><img src="pixra/koc1.png"></td>
 <td >
 <p>こしょん [kocon]</p>
 <p >そらの幼なじみ</p>
@@ -34,7 +43,7 @@
 </td>
 </tr>
 <tr >
-<td ><img src="../../pixra/sor2.png"></td>
+<td ><img src="pixra/sor2.png"></td>
 <td >
 <p>そら [soran]</p>
 <p >ロジバン初心者</p>
@@ -42,7 +51,7 @@
 </td>
 </tr>
 <tr >
-<td ><img src="../../pixra/sev2.png"></td>
+<td ><img src="pixra/sev2.png"></td>
 <td >
 <p>セヴァン [sevan]</p>
 <p>そらの妹</p>
