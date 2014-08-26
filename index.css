@@ -189,7 +189,6 @@ hr{
 }
 
 .icon{
-	border: 1px #000000 solid;
 	float:left;
     height: 65px;
 	width: 65px;
@@ -261,22 +260,9 @@ footer .left{
     margin-bottom:0.5em;
 }
 
-
-
 footer .right{
     float:right;
     margin-bottom:0.5em;
-}
-
-.koc1{    
-}
-.koc2{
-}
-.koc3{
-}
-.sor1{   
-}
-.sev1{
 }
 
 input[type=radio]{
