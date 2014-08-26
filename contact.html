@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="author" content="la .cogas.">
@@ -8,63 +8,27 @@
 <BASE href=".">
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" ></script>
-<style type="text/css">
-#formWrap {
-	width:700px;
-	margin:0 auto;
-	color:#555;
-	line-height:120%;
-	font-size:90%;
-}
-table.formTable{
-	width:100%;
-	margin:0 auto;
-	border-collapse:collapse;
-}
-table.formTable td,table.formTable th{
-	border:1px solid #ccc;
-	padding:10px;
-}
-table.formTable th{
-	width:30%;
-	font-weight:normal;
-	background:#efefef;
-	text-align:left;
-}
-</style>
+<script type="text/javascript" src="sidebar.js"></script>
+<title>はじめてのロジバン</title>
 </head>
 <body>
-<div id="formWrap">
-  <h3>問題投稿フォーム</h3>
-  <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
-  <p></p>
-  <form method="post" action="mail.php">
-    <table class="formTable">
-      <tr>
-        <th>お名前</th>
-        <td><input size="20" type="text" name="お名前" /> ※必須</td>
-      </tr>
-      <tr>
-        <th>Mail（半角）</th>
-        <td><input size="30" type="text" name="Email" /> </td>
-      </tr>
-      <tr>
-        <th>Twitter ID</th>
-        <td><input size="30" type="text" name="twitter" /><br>※ @lojytan_bot からリプライするかもしれません </td>
-      </tr>
-      <tr>
-        <th>問題の種類</th>
-        <td><input size="30" type="text" name="question"/><br>※ どの章の「例文」「○×問題」「章末問題」かを記入してください</td>
-      </tr>
-      <tr>
-        <th>内容<br /></th>
-        <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
-      </tr>
-    </table>
-    <p align="center">
-      <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
-    </p>
-  </form>
+
+<div id="wrap">
+<header class="titlebar">はじめてのロジバン(仮)</header>  
+<div id="inner">  
+<div id="mainWrap">
+<p>
+<div class="mainsection">
+<iframe src="https://docs.google.com/forms/d/1G6wxC9ieaqHru27TCQCK-Dop1_3c37lYMzl1AZBwYJ8/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込み中...</iframe>
 </div>
+</p>
+</div>
+<div id="sideWrap" class="subsection"><h2 >No script</h2></div>  
+<div class="clear"><hr /></div>
+</div>
+<footer><p> Copyright: la .cogas. </p></footer>  
+</div>
+
+
 </body>
 </html>
