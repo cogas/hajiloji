@@ -131,6 +131,13 @@ dfn{
     margin-bottom: 5px;
 }
 
+.list2 {
+	list-style-type:square;
+    margin: 1em;
+    padding-left:2em;
+	border-left: solid 3px #eabd00;
+}
+
 .sidelist {
 	font-size:10pt;
 	list-style-type:square;
