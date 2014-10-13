@@ -6,9 +6,9 @@ title: 新 はじめてのロジバン（仮）
 #<font color="#bf545e">ただいま基板工事中です</font>
 ひたすら移植中
 
-<div class="target_blank">
+
 [移転元はこちら](http://seesaawiki.jp/hajiloji/)
-</div>
+
 
 # fi'i do .ui
 ようこそ！このサイトは、ロジバン入門講座です！  
