@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<h1>{{page.title}}</h1>
+
+<table class="cfajufra">
+{% for elem in page.jufralist %}
+<tr><td>{{elem}}</td></tr>
+{% endfor %}
+</table>
+
+<div class="box keywords">
+<p>{{page.keywords}}</p>
+</div>
+
+{{content}}
+
+<h2 >まとめ</h2>
+<ul class="big">
+{% for elem in page.summary %}
+<li>{{elem}}</li>
+{% endfor %}
+</ul>
+
+<hr>
+<h3 >○×問題</h3>
+<div id="TFquestion">
+<ol >
+{% for elem in page.TFq %}
+<li>{{elem}}</li>
+{% endfor %}
+</ol>
+</div>
+
+<p><input type="button" onclick="yesnocheck();" value="採点する"></p>
+<div id="yesnoans">-/-問正解！</div>
+<input type="hidden" name="answer" value="{{ page.TFa }}">
+
+<hr>
+
+<h3 >章末問題</h3>
+<ol class="plist">
+{% for content in page.practice%}
+<li >{{ content.hash.name}}
+  <ol>
+  {% for elem in content.value%}
+  <li>{{ elem }}</li>
+  {% endfor %}
+  </ol>
+</li>
+{% endfor %}
+</ol>
+
+<hr>
+
+<h3 >答え</h3>
+<ol class="plist">
+{% for content in page.practiceA%}
+<li >{{ content.hash.name }}
+  <ol>
+  {% for elem in content.hash.value %}
+  <li>{{ elem }}</li>
+  {% endfor %}
+  </ol>
+</li>
+{% endfor %}
+</ol>
+
+<hr>
+
+<h3 >今回出てきた単語</h3>
+<table id="vocab"></table>
+
+<hr>
+
+<footer >
+<div class="left"><a href="{{site.baseurl}}{{ page.prulahi }}">←prev</a></div><div class="right"><a href="{{site.baseurl}}{{ page.bavlahi }}">next→</a></div>
+<div class="clrf"></div>
+</footer>
+</section>
+</p>
+</div>
+

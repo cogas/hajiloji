@@ -1,0 +1,132 @@
+---
+title: はじロジコンバータ
+---
+<html> 
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/TFbutton.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" ></script>
+  <title>{{page.title}}</title>
+</head>
+<body>
+<form action="#">
+    <h1>はじろじ支援</h1>
+    <h2>アイコン画像のタグに簡単な文字列を与えています。</h2>
+    <div>「wikiタグ化」で、"koc-n"などの文字列が"&ref(http://....)"に置き換わります。</div>
+    <div>「wikiタグ解除」で、"&ref(http://....)" が、"koc-n"などの独自タグに置き換わります。</div>
+    <p></p>
+    <div><b>【新規作成の場合】</b></div>
+    <div>1. "koc-1"や"sor-2"などのタグを使って書く。</div>
+    <div>2. コピペして、「wikiタグ化」ボタンを押す。</div>
+    <div>3. 下のテキストボックスをコピペして、wikiに貼り付ける。</div>
+    <p></p>
+    <div><b>【編集の場合】</b></div>
+    <div>1. 記事を全選択、コピペして、「wikiタグ解除」を押す。</div>
+    <div>2. 下のテキストボックスをコピーして、上のテキストに貼り付け。</div>
+    <div>3. そこで編集して(別に他のとこでもいい)、「wikiタグ化」を押す</div>
+    <div>4. 下のテキストボックスをコピペして、wikiに貼り付け。</div>
+    <p><input type="button" value="▼ タグを別窓で見る" onclick = "taglist()" /></p>
+    <script type="text/javascript"><!--
+    var tbl = new Array();
+    tbl [0] = ["",""]
+    tbl [1] = ["koc1:","http://image02.w.livedoor.jp/h/i/hajiloji/b492327fe3bba507.png"];
+    tbl [2] = ["koc2:","http://image01.w.livedoor.jp/h/i/hajiloji/15cd577872d704c1.png"];
+    tbl [3] = ["koc3:","http://image02.w.livedoor.jp/h/i/hajiloji/92e9fb19d51b9a09.png"];
+    tbl [4] = ["koc4:","http://image01.w.livedoor.jp/h/i/hajiloji/266929b2998c92c9.png"];
+    tbl [5] = ["koc5:","http://image01.w.livedoor.jp/h/i/hajiloji/f3275173c1abe7dd.png"];
+    tbl [6] = ["koc6:","http://image01.w.livedoor.jp/h/i/hajiloji/762eb55c5dc88741.png"];
+    tbl [7] = ["sev1:","http://image01.w.livedoor.jp/h/i/hajiloji/9f0336f62a5eb82f.png"];
+    tbl [8] = ["sev2:","http://image01.w.livedoor.jp/h/i/hajiloji/dcb0259e6fa54f16.png"];
+    tbl [9] = ["sev3:","http://image01.w.livedoor.jp/h/i/hajiloji/62f9fe90537d3182.png"];
+    tbl [10] = ["sev4:","http://image01.w.livedoor.jp/h/i/hajiloji/f6bf650f0f661326.png"];
+    tbl [11] = ["sor1:","http://image02.w.livedoor.jp/h/i/hajiloji/b655c126068be944.png"];
+    tbl [12] = ["sor2:","http://image02.w.livedoor.jp/h/i/hajiloji/7b9bd4668e1740b7.png"];
+    tbl [13] = ["sor3:","http://image02.w.livedoor.jp/h/i/hajiloji/57e4758999ab65dd.png"];
+    tbl [14] = ["sor4:","http://image02.w.livedoor.jp/h/i/hajiloji/fb3667588cb5607d.png"];
+    tbl [15] = ["sor5:","http://image02.w.livedoor.jp/h/i/hajiloji/742bd2ab3ddef951.png"];
+    tbl [16] = ["sor6:","http://image01.w.livedoor.jp/h/i/hajiloji/5c975e81468d6dec.png"];
+    tbl [17] = ["sor7:","http://image01.w.livedoor.jp/h/i/hajiloji/a0aaae26136883ff.png"];    
+    // --></script>
+    <p><textarea id="text1" cols="100" rows="35"></textarea></p>
+    <p><input type="button" value="▼ wikiタグ化" onclick = "encode()" /><input type="button" value="▼ wikiタグ解除" onclick = "decode()" /></p>
+    <p><textarea id="text2" readonly="readonly" cols="100" rows="10">変換後</textarea></p>
+
+    <h3>独自タグ一覧</h3>
+    <table border="1" frame="box" id="taglist">
+    <script type="text/javascript"><!--
+        for (i=1; i < tbl.length; i++){
+            if((i%6)==1){
+                document.write( "<tr>" );
+            }
+            document.write( "<td>" );
+            document.write( tbl [i][0] ); 
+            document.write( "</td>" );
+            document.write( "<td>" );
+            if (i==0) {
+                document.write( tbl [i][1] );
+            }else{
+                document.write( "<img src=" + tbl [i][1] + ">");
+            }
+            document.write( "</td>" );
+            if((i%6)==0){
+                document.write( "</tr>" );
+            }
+        }
+    // --></script>
+    </table>
+</form>
+
+<script type="text/javascript">   
+    function encode(){
+        var object1 = document.getElementById("text1");
+        var object2 = document.getElementById("text2");
+        temp = object1.value;
+        for (i=1; i<tbl.length; i++){
+            while ( temp.indexOf(tbl[i][0],0) != -1 ){
+                temp = temp.replace(tbl[i][0],"&ref("+tbl[i][1]+",no_link)");
+            }
+        }
+        object2.value = temp
+    }
+    
+    function decode(){
+        var object1 = document.getElementById("text1");
+        var object2 = document.getElementById("text2");
+        temp = object1.value;
+        for (i=1; i<tbl.length; i++){
+            while ( temp.indexOf("&ref("+tbl[i][1]+",no_link)",0) != -1 ){
+                temp = temp.replace("&ref("+tbl[i][1]+",no_link)",tbl[i][0]);
+            }
+        }
+       object2.value = temp
+    }
+    
+    function taglist(){
+        var wid = screen.width;
+        var hei = screen.hei;
+        win = window.open("#taglist","new","width=860,height=320");
+        win.moveTo(wid/2,hei/2);   
+    }
+        
+    function fromN(){
+        var object1 = document.getElementById("text1");
+        var object2 = document.getElementById("text2");
+        temp = object1.value;
+        while ( temp.indexOf(",80,no_link",0) != -1 ){
+                temp = temp.replace(",80,no_link",",no_link");
+            }
+        while ( temp.indexOf(",85,no_link",0) != -1 ){
+                temp = temp.replace(",85,no_link",",no_link");
+            }
+        while ( temp.indexOf("&ref("+tbl[7][1]+",no_link)",0) != -1 ){
+                temp = temp.replace("&ref("+tbl[7][1]+",no_link)","&ref("+tbl[1][1]+",no_link)");
+            }
+        while ( temp.indexOf("&ref("+tbl[8][1]+",no_link)",0) != -1 ){
+                temp = temp.replace("&ref("+tbl[8][1]+",no_link)","&ref("+tbl[15][1]+",no_link)");
+            }
+       object2.value = temp    
+    }    
+</script>
+</body>
+</html>
