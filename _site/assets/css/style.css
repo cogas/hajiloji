@@ -126,6 +126,24 @@ caption{
     font-size:small;    
 }
 
+header{
+    position:bottom;
+    font-size:small;
+    text-align:center;
+}
+
+header .left{
+    float:left;
+    margin-bottom:0.5em;
+}
+
+
+header .right{
+    float:right;
+    margin-bottom:0.5em;
+}
+
+
 
 footer{
     position:bottom;

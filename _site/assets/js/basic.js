@@ -9,7 +9,7 @@ $(window).load(function () {
 	.append('<br><input type="radio" name="q'+st+'" value=1 id="q'+st+'y" /><label for="q'+st+'y" class="radio">○</label><input type="radio" name="q'+st+'" value=0 id="q'+st+'n" /><label for="q'+st+'n" class="radio">×</label>');
   };
   $('.inter li a').attr("href",function(i,val){
-    return location.origin + "/coga_iu_n" + val;
+    return location.origin + "/hajiloji" + val;
   });
 　$('.target_blank a').attr("target='_blank'");
 });
