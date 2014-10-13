@@ -6,7 +6,9 @@ title: 新 はじめてのロジバン（仮）
 #<font color="#bf545e">ただいま基板工事中です</font>
 ひたすら移植中
 
+<div class="target_blank">
 [移転元はこちら](http://seesaawiki.jp/hajiloji/)
+</div>
 
 # fi'i do .ui
 ようこそ！このサイトは、ロジバン入門講座です！  
@@ -66,7 +68,7 @@ title: 新 はじめてのロジバン（仮）
  : 日本語のgismu定義集。便利！「ctrl + f」でページ内検索かけましょう。</li>
 <li ><a href="https://skami.iocikun.jp/lojban/tables/ja/cmavo_table.html" target="_blank">cmavo liste</a>
  : 日本語のcmavo定義集。便利！</li>
-<li ><a href="" target="_blank">オフラインでロジバン辞書を使う</a>
+<li ><a href="http://cogas.github.io/article/jbo_goldendict.html" target="_blank">オフラインでロジバン辞書を使う</a>
  : GoldenDictというフリーソフトを使ったやり方です。</li>
 </ul>
 </div>
