@@ -1,0 +1,54 @@
+<style type="text/css">
+<!--
+
+@charset "UTF-8";
+
+/*------------------------------------------
+
+プリントプレビュー用
+
+------------------------------------------*/
+
+body.print {
+
+    body {
+        /* フォントを濃く */
+        color:#111;
+        /* 背景を白に */
+        background-color:#fff;
+    }
+    #header,
+    #bc,
+    #side,
+    #footer
+    {
+        /* 非表示 */
+        display:none;
+    }
+    #content {
+        /* 幅をブラウザに任せる */
+        width: auto;
+        padding: 0;
+        float: none;
+        background-color: #fff;
+    }
+    table td,
+    table th {
+        /* ボーダーを濃く */
+        border:solid 1px #000 !important;
+    }
+
+}
+
+@media print {
+    /* 通常のプリントは見たままを印刷したい。 */
+    /* 印刷ボタンを表示しているボックスだけ印刷時に非表示 */
+    .btnBox {
+        display:none;
+    }
+}
+
+
+
+-->
+</style>
