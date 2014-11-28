@@ -46,6 +46,9 @@ body.print {
     .btnBox {
         display:none;
     }
+	#sidewrap{
+		display:none;
+    }
 }
 
 
