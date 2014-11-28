@@ -1,0 +1,19 @@
+@media print{
+#sideWrap{display:none;}
+#mainWrap{width:100%; float:none;}
+.titlebar{
+	background-color:#584939;
+	padding: 20px 0.5em 20px 0.5em;
+    border-radius:4px;
+    font-size: 15px;
+    font-weight: bolder;
+    color:#ffffff;
+    letter-spacing:0.3em;          
+}
+.tweetbtn{display:none;}
+footer{display:none;}
+.icon{width:2.5em; height:2.5em;}
+body{color:#000000;}
+#yesnobtn{display:none;}
+#yesnoans{display:none;}
+}

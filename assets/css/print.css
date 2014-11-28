@@ -1,43 +1,19 @@
-@charset "UTF-8";
-
-/*------------------------------------------
-
-プリントプレビュー用
-
-------------------------------------------*/
-
-body.print {
-
-    body {
-        /* フォントを濃く */
-        color:#111;
-        /* 背景を白に */
-        background-color:#fff;
-    }
-    #sideWrap,
-    {
-        /* 非表示 */
-        display:none;
-    }
-    #content {
-        /* 幅をブラウザに任せる */
-        width: auto;
-        padding: 0;
-        float: none;
-        background-color: #fff;
-    }
-    table td,
-    table th {
-        /* ボーダーを濃く */
-        border:solid 1px #000 !important;
-    }
-
+@media print{
+#sideWrap{display:none;}
+#mainWrap{width:100%; float:none;}
+.titlebar{
+	background-color:#584939;
+	padding: 20px 0.5em 20px 0.5em;
+    border-radius:4px;
+    font-size: 15px;
+    font-weight: bolder;
+    color:#ffffff;
+    letter-spacing:0.3em;          
 }
-
-@media print {
-    /* 通常のプリントは見たままを印刷したい。 */
-    /* 印刷ボタンを表示しているボックスだけ印刷時に非表示 */
-    .btnBox {
-        display:none;
-    }
+.tweetbtn{display:none;}
+footer{display:none;}
+.icon{width:2.5em; height:2.5em;}
+body{color:#000000;}
+#yesnobtn{display:none;}
+#yesnoans{display:none;}
 }

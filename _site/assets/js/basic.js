@@ -12,5 +12,7 @@ $(window).load(function () {
     return location.origin + "/hajiloji" + val;
   });
 　$('.target_blank a').attr("target='_blank'");
+  $(document).on('click','.titlebar',function(){
+    document.location = location.origin + "/hajiloji/"; 
+  });
 });
-

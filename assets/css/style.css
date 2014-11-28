@@ -2,10 +2,10 @@
 <!--
 
 body { text-align:center; }  
-#wrap { width:1200px; text-align:left; margin:0 auto; }  
-#inner { margin:0 10px; }  
-#mainWrap { width:900px; float:right;}  
-#sideWrap { width:250px; float:left;}  
+#wrap { width:100%; text-align:left; margin:0 auto; }  
+#inner {margin:1%;}  
+#mainWrap { width:75%; float:right;}  
+#sideWrap { width:20%; float:left;}  
 
 /* フレームの設定 -------------------------------- */
 
@@ -17,14 +17,15 @@ body { text-align:center; }
     font-size: 40px;
     font-weight: bolder;
     color:#ffffff;
-    letter-spacing:0.3em;          
+    letter-spacing:0.3em;
+    cursor:pointer;          
 }
+
 
 /* 右側のセクション */
 .mainsection{
 	padding-left:1em;
     padding-right:1em;
-    border-right:1px solid #a5a79a;
 }
 
 /* サイドバーのセクション */
@@ -51,7 +52,7 @@ body{/*内容部分*/
 }
 
 h1{
-  width: 90%;
+  width: 100%;
   font-size: 24pt;
   color: #584939;
   padding: 0px 0.5em 1px 0.5em;
@@ -61,7 +62,7 @@ h1{
   }
 
 h2{
-  width: 90%;
+  width: 100%;
   font-size: 18pt;/*文字サイズ*/
   color: #584939;/*文字色*/ 
   padding: 1px 0.5em 5px 0.5em;
@@ -71,7 +72,7 @@ h2{
 }
 
 h3{
-  width: 90%;
+  width: 100%;
   font-size: 14pt;/*文字サイズ*/
   color: #584939f;/*文字色*/
   padding: 1px 1em 5px 0.7em;

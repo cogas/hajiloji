@@ -9,7 +9,7 @@ $(window).load(function () {
     			$('.mainsection').each(function(){
         			var txt = $(this).html();
 					var reg = new RegExp(name+j+":","g");
-        			$(this).html(txt.replace(reg,'<img src="'+location.origin+'/hajiloji'+'/assets/pixra/'+name+j+'.png" >'));
+        			$(this).html(txt.replace(reg,'<img src="'+location.origin+'/hajiloji'+'/assets/pixra/'+name+j+'.png" class="icon">'));
     			});
 			});
 		}
