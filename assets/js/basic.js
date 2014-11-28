@@ -32,6 +32,7 @@ doPrintPreview = (function(){
 });
 
 
+
 $(function() {
     //URLパラメータに'print'が存在する場合、
     if (location.href.indexOf('?print') > -1) { 

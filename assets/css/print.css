@@ -1,6 +1,3 @@
-<style type="text/css">
-<!--
-
 @charset "UTF-8";
 
 /*------------------------------------------
@@ -17,10 +14,7 @@ body.print {
         /* 背景を白に */
         background-color:#fff;
     }
-    #header,
-    #bc,
-    #side,
-    #footer
+    #sideWrap,
     {
         /* 非表示 */
         display:none;
@@ -46,12 +40,4 @@ body.print {
     .btnBox {
         display:none;
     }
-	#sidewrap{
-		display:none;
-    }
 }
-
-
-
--->
-</style>
