@@ -1,4 +1,20 @@
 $(window).load(function () {
+  $('.mainsection').each(function(){
+        var txt = $(this).html();
+        $(this).html(txt.replace(/problem:::/g,'<div class="'+'box problem'+'">'));
+  });
+  $('.mainsection').each(function(){
+        var txt = $(this).html();
+        $(this).html(txt.replace(/note:::/g,'<div class="'+'box note'+'">'));
+  });
+  $('.mainsection').each(function(){
+        var txt = $(this).html();
+        $(this).html(txt.replace(/memo:::/g,'<div class="'+'box memo'+'">'));
+  });
+  $('.mainsection').each(function(){
+        var txt = $(this).html();
+        $(this).html(txt.replace(/::::/g,"</div>"));
+  });
   $('.note').prepend("<div class='title'>N O T E</div>");
   $('.memo').prepend("<div class='title'>M E M O</div>");
   $('.problem').prepend("<div class='title'>問 題</div>");

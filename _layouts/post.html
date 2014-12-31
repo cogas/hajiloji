@@ -42,7 +42,7 @@ layout: default
 <h3 >章末問題</h3>
 <ol class="plist">
 {% for content in page.practice%}
-<li >{{ content.hash.name}}
+<li >{{ content.name}}
   <ol>
   {% for elem in content.value%}
   <li>{{ elem }}</li>
@@ -57,9 +57,9 @@ layout: default
 <h3 >答え</h3>
 <ol class="plist">
 {% for content in page.practiceA%}
-<li >{{ content.hash.name }}
+<li >{{ content.name }}
   <ol>
-  {% for elem in content.hash.value %}
+  {% for elem in content.value %}
   <li>{{ elem }}</li>
   {% endfor %}
   </ol>
