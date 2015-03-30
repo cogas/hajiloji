@@ -18,7 +18,7 @@ $(window).load(function () {
   $('.note').prepend("<div class='title'>N O T E</div>");
   $('.memo').prepend("<div class='title'>M E M O</div>");
   $('.problem').prepend("<div class='title'>問 題</div>");
-　$('.keywords').prepend("<div class='title'>keywords</div>");
+//　$('.keywords').prepend("<div class='title'>keywords</div>");
   for (var i=0; i<=$("#TFquestion li").length; i++){
 	st = String(i)
   	$("#TFquestion li").eq(i)

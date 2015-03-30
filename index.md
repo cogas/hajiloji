@@ -3,7 +3,7 @@ layout: default
 title: はじめてのロジバン 第２版
 ---
 
-#<font color="#bf545e">ただいま基板工事中です</font>
+#<font color="#bf545e">ただいま基盤工事中です</font>
 ひたすら移植中
 
 
