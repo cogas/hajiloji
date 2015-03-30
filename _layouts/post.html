@@ -4,26 +4,13 @@ layout: default
 
 <h1>{{page.title}}</h1>
 
-<table class="cfajufra">
-{% for elem in page.jufralist %}
-<tr><td>{{elem}}</td></tr>
-{% endfor %}
-</table>
-
 <div class="box keywords">
 <p>{{page.keywords}}</p>
 </div>
 
 {{content}}
 
-<h2 >まとめ</h2>
-<ul class="big">
-{% for elem in page.summary %}
-<li>{{elem}}</li>
-{% endfor %}
-</ul>
 
-<hr>
 <h3 >○×問題</h3>
 <div id="TFquestion">
 <ol >
@@ -36,36 +23,6 @@ layout: default
 <p><input type="button" onclick="yesnocheck();" value="採点する" id="yesnobtn"></p>
 <div id="yesnoans">-/-問正解！</div>
 <input type="hidden" name="answer" value="{{ page.TFa }}">
-
-<hr>
-
-<h3 >章末問題</h3>
-<ol class="plist">
-{% for content in page.practice%}
-<li >{{ content.name}}
-  <ol>
-  {% for elem in content.value%}
-  <li>{{ elem }}</li>
-  {% endfor %}
-  </ol>
-</li>
-{% endfor %}
-</ol>
-
-<hr>
-
-<h3 >答え</h3>
-<ol class="plist">
-{% for content in page.practiceA%}
-<li >{{ content.name }}
-  <ol>
-  {% for elem in content.value %}
-  <li>{{ elem }}</li>
-  {% endfor %}
-  </ol>
-</li>
-{% endfor %}
-</ol>
 
 <hr>
 
