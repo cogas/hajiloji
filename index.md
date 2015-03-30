@@ -1,6 +1,6 @@
 ---
 layout: default
-title: もっと！はじめてのロジバン
+title: はじめてのロジバン 第２版
 ---
 
 #<font color="#bf545e">ただいま基板工事中です</font>
