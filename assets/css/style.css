@@ -93,6 +93,10 @@ ul {
 	border-left: solid 3px #eabd00;
 }
 
+ul li {
+	margin: 0.5em;
+}
+
 ol li{
     margin: 0.5em;
 }
@@ -253,6 +257,14 @@ a:active { color:#fcb034;}
     font-size:large;
 }
 
+/* jufra */
+.jufra {
+	border-left: 4px solid #00aeef;
+    padding-left: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
 /* ## リスト ------- */
 
 /* 大きいリスト */
@@ -293,24 +305,6 @@ ol.plist li ol li{
 }
 
 /* ## テーブル ------------ */
-
-/* 例文 */
-.jufra{
-    border:none;
-}
-
-.cfajufra{
-	border: 0px #ffffff solid;
-    font-size:26px;    
-}
-
-.cfajufra td,th{
-	border: 0px #ffffff solid;    
-}
-
-.jufra td,th{
-    border:none;
-}
 
 
 /* 章末の単語リスト */
