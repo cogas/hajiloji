@@ -1,4 +1,4 @@
-$(window).load(function () {
+$(function () {
   $('.mainsection').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/problem:::/g,'<div class="'+'box problem'+'">'));
