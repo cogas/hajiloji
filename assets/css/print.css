@@ -10,9 +10,8 @@
     color:#ffffff;
     letter-spacing:0.1em;          
 }
-.cfajufra{
-	border: 0px #ffffff solid;
-    font-size:18px;    
+#vocab td{
+	font-size: 9pt;
 }
 .tweetbtn{display:none;}
 footer{display:none;}

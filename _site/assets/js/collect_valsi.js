@@ -1,4 +1,4 @@
-$(window).load(function () {
+$(function () {
 	dt = $(".valsi dt dfn").map(function(){return $(this).html()});
 	dd = $(".valsi dd").map(function(){return $(this).html()});
 	n = $(".valsi dt dfn").size();

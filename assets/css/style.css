@@ -309,11 +309,11 @@ ol.plist li ol li{
 
 /* 章末の単語リスト */
 #vocab td{
-    font-size:small;
+    font-size: small;
 }
 
 #vocab .meaning{
-    width: 450px;
+    width: 600px;
 }
 
 /* リンク */
