@@ -30,16 +30,16 @@ title: はじめてのロジバン 第２版
 
 <div class="target_blank">
 <ul  class="small">
-<li ><a href="http://www.lojban.org/tiki/tiki-index.php?page=%E5%AD%A6%E7%BF%92&no_bl=y" target="_blank">公式wiki 学習ページ</a>
- : ロジバン公式wikiの学習ページです。さまざまな学習ツールへのリンクが張ってあります。</li>
+<li ><a href="http://mw.lojban.org/papri/%E5%AD%A6%E7%BF%92" target="_blank">公式wiki 学習ページ</a>
+ : ロジバン公式wikiの学習ページです。さまざまな学習ツールへのリンクが張ってあります。まずはここを見よう！</li>
 <li ><a href="http://mhagiwara.github.com/cll-ja/" target="_blank">The Complete Lojban Language 日本語抄訳</a>
  : 日本のロジバニスト精鋭が訳した、ロジバン文法の公式文書。</li>
 <li ><a href="http://guskant.github.io/kolojbo.iu/" target="_blank">ko lojbo .iu</a>
  : la .guskant. によるロジバン入門講座。音声があるのがすごくいい。テキストも素晴らしいです！</li>
 <li ><a href="http://ja.wikibooks.org/wiki/%E3%83%AD%E3%82%B8%E3%83%90%E3%83%B3" target="_blank">wikibooks ロジバン</a>
  : おなじみのwikibooksです。適度にまとまっています。</li>
-<li ><a href="http://www.lojban.org/tiki/wavelessonscontinued" target="_blank">wavelesson</a>
- : 最新の文法が学べるテキストのひとつ。ただし英語。</li>
+<li ><a href="http://mw.lojban.org/papri/Lojban_Wave_Lessons" target="_blank">Lojban Wave Lessons</a>
+ : 英語ですが、最も更新が活発な入門講座のひとつです。最新の意味論や頻出の非公式な語句も取り上げています。</li>
 <li ><a href="http://misonikomilojban.blogspot.jp/search/label/lojban%20wavelessons" target="_blank">lojban wavelesson 日本語訳</a>
  : wavelesson の日本語訳。</li>
 <li ><a href="http://wikitravel.org/ja/%E3%83%AD%E3%82%B8%E3%83%90%E3%83%B3%E8%AA%9E%E4%BC%9A%E8%A9%B1%E9%9B%86" target="_blank">ロジバン語会話集</a>
