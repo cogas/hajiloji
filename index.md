@@ -3,7 +3,9 @@ layout: default
 title: はじめてのロジバン 第２版
 ---
 
-#<font color="#bf545e">ニューゲーム暫定完成しました！誤植や細かな修正を除けば完成しています！</font>
+#<font color="#bf545e">ニューゲーム暫定完成しました！</font>
+
+誤植や細かな修正を除けば完成しています！ 進化したはじロジをよろしくお願いします！
 
 [移転元はこちら](http://seesaawiki.jp/hajiloji/)
 
