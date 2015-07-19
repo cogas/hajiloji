@@ -3,9 +3,7 @@ layout: default
 title: はじめてのロジバン 第２版
 ---
 
-#<font color="#bf545e">ただいま基盤工事中です</font>
-ひたすら移植中
-
+#<font color="#bf545e">ニューゲーム暫定完成しました！誤植や細かな修正を除けば完成しています！</font>
 
 [移転元はこちら](http://seesaawiki.jp/hajiloji/)
 
