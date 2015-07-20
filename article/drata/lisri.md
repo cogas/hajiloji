@@ -17,12 +17,12 @@ date: 2015-7-16
 .i la .canam. ko'a citno mensi gi'e nelci  
 .i ko'a morji lo du'u penmi do lo zarci klaji poi jibni lo xamsi  
 .i pu lo nu ko'a klama ti kei bu'u la .ni'icman. noi misno cmana ku'o    
-ko'a ze'u catlu lo blanu tsani gi'e xraci'a lo pixra be lo nebyplovoicpi fo lo pinsi  
+ko'a ze'u catlu lo blanu tsani gi'e finti lo pixra be lo nebyplovoicpi fo lo pinsi  
 .i ko'a se vajni lo nu vo'a kanro .e lo xunre le'otci  
 .i ko'a jinvi lo du'u mi cinri je xendo  
 .i ko'a kakne lo nu vofli .i la'e di'u mutce spaji mi  
 .i mi na djuno lo du'u ta'i makau ko'a co'e  
-.i mi pacna lo nu do pendo ko'a .i .e'u ma'a zanfri lo nu citka lo sanmi kei ca lo nalgundei
+.i .a'o lo nu do pendo ko'a .i .e'u ma'a zanfri lo nu citka lo sanmi kei ca lo nalgundei
 
 <dl class="box valsi">
 <dt><dfn>jungau</dfn></dt>
