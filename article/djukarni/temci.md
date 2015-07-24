@@ -3,6 +3,7 @@ layout: post_not_ctuca_not_prulahi_not_bavlahi
 title: 時間表現
 date: 2015-7-19
 ---
+{% include icons.md %}
 
 　ここでは、時間表現について学んでいきたいと思います。
 
