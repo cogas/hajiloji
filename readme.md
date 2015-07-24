@@ -15,32 +15,33 @@ layout: article
 layout: post  
 title: TITLE  
 date: 20xx-xx-xx  
-categories: cifnu 3  
-prulahi: ../../  
-bavlahi: /cifnu/2/
-jufralist: 
-  - .i mi prami do ― 愛してる。  
+prulahi: 6  
+bavlahi: 8
 keywords: XXX, YYY, ZZZ,   
-summary:  
-  - これはこうなる  
 TFq:  
   - このサイトの略称は「はじパジ」である。  
 TFa: "0"  
-practice:
- - hash:
-     name: 次を和訳しなさい
-     value: [".i mi prami do", 
-			".oi do darxi mi mu'i ma"] 
- - hash:
-     name: 次を和訳しなさい
-     value: [".i mi prami do",
-			 ".oi do darxi mi mu'i ma"] 
-
 ```
 
-- categoriesによってアドレスが決まるので、サブカテゴリ + 章のナンバー にしておく
 - prulahi と bavlahi は次のページのアドレスを書く。TOPは"../../"で。
 - keywordsはその章のキーワード。
-- summary はその章のまとめ。リスト
 - TFq/a は○×問題。TF1qはリストで、aは0/1の文字列。0が×、1が○
-- practice(A)は章末問題。hash.nameに大問、hash.valueにその問題内容。
+
+# はじロジに対して貢献できること（lo se senva be la .cogas.）
+
+## サイト関連
+
+- それぞれの章末にある単語集を１つのページにまとめるようなシステム
+- それぞれの章の例文を１つのページにまとめるようなシステム
+- スマホ用のサイトレイアウト
+
+## ロジバン関連
+
+- はじロジ傍用問題集のための問題作り（作文、和訳、文法問題などなど…）
+- はじロジ本編の例文作り
+- ライティング用の自由ロジ作文のお題やその文章例
+- リーディング用の短いテキスト
+
+## 教育関連
+
+- こんなんあったら絶対おもろいやろなってアイデア
