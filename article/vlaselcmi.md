@@ -5,6 +5,7 @@ date: 2015-4-12
 prulahi: 6
 bavlahi: 8
 ---
+{% include icons.md %}
 
 ## 4
 

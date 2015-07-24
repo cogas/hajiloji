@@ -3,6 +3,7 @@ layout: post_not_ctuca_not_prulahi_not_bavlahi
 title: PU, FAhA 定義集
 date: 2015-7-19
 ---
+{% include icons.md %}
 
 ＠PU
 |語|定義|意味|

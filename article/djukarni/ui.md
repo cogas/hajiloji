@@ -3,6 +3,7 @@ layout: post_not_ctuca_not_prulahi_not_bavlahi
 title: 心態詞チョイス
 date: 2015-7-19
 ---
+{% include icons.md %}
 
 ここでは、本編には載せきれなかった心態詞を載せます。
 すべての心態詞がみたい場合は、[lo cmavo liste](https://skami.iocikun.jp/lojban/tables/ja/cmavo_table.html)をどうぞ。

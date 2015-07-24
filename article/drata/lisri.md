@@ -3,6 +3,7 @@ layout: post_not_ctuca_not_prulahi_not_bavlahi
 title: le lisri
 date: 2015-7-16
 ---
+{% include icons.md %}
 
 ## jungau fo la .sanit.
 

@@ -3,6 +3,7 @@ layout: post_not_ctuca_not_prulahi_not_bavlahi
 title: cafne preti - よくある質問 -
 date: 2015-4-5
 ---
+{% include icons.md %}
 
 ## 2. 発音とアルファベット
 
@@ -24,7 +25,7 @@ date: 2015-4-5
 
 bo や ke を使うと tanru の修飾順序を変えることができる
 
-koc3:  
+![koc3]  
 tanru は修飾の仕方が厳密に定められてるから、次の文は「親切な青い人だ」にはなりません。
 
 xendo blanu prenu / (([親切] [青い]) [人]) ≒ 「親切さが青いような人（？）」
@@ -37,7 +38,7 @@ xendo blanu prenu / (([親切] [青い]) [人]) ≒ 「親切さが青いよう�
 </dl>
 
 
-koc2:  
+![koc2]  
 こんなときは、修飾の優先順位を変える bo や ke を使います！
 
 <dl class="box valsi drani">
@@ -49,7 +50,7 @@ koc2:
 <dd >tanru グループ終了。いわゆる「)」。修飾関係に支障がない場合は省略できる。</dd>
 </dl>
 
-sor2:  
+![sor2]  
 なるほど。これを使えば「親切な青い人」は「親切な（青い人）」だから、
 
 xendo **ke** blanu prenu [ke'e]
