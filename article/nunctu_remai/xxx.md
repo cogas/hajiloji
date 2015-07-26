@@ -146,3 +146,40 @@ ni'o や mai とか、そのあたり。
 
 xi とか。
 
+### 外部量化詞
+
+![koc1]  
+次は、略記法（の逆）のちょっとした応用編です。
+
+描写sumti（lo [述なれ語]）の指示対象の個数を述べるときは冠詞と述なれ語の間に数詞を置きました。  
+これを、<b>内部量化詞</b>と呼びます。項の構造の内部にある、個数を示す数詞だから、内部量化詞だね。
+
+実は、**項の頭に数詞を置くことができます**。これを**外部量化詞**と言います。  
+外部量化詞のついた項は da の形に書き換えられるので、すべて存在文になります。
+
+<font size="4">PA [sumti] = PA da poi ke'a <b>me [sumti]</b></font>
+
+つまり、「<b>[sumti]の指示対象のうち</b>、～なのが PA個存在する」という意味になります。
+
+jufra:::
+
+**pa ti** blanu = **pa da poi ke'a me ti** cu blanu  
+/ これらのうち、青いものが１つある。
+
+**ro ma'a** ninmu = **ro da poi ke'a me ma'a** cu ninmu  
+/ 私達のうちのすべてが、女性だ。
+
+**re lo mu verba** cu sipna = **re da poi ke'a me lo mu verba** cu sipna  
+/ ６人の子供たちのうちに、眠っているのが２人いる。
+
+::::
+
+problem:::
+
+上の３つの文を、すべて冠頭のある形に書き直せ。例として１つ目だけ答えを書く。
+
+1. pa ti blanu <b>= pa da poi ke'a me ti zo'u da blanu</b>
+2. ro ma'a ninmu 
+3. re lo mu verba cu sipna
+
+::::
