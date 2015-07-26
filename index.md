@@ -9,11 +9,12 @@ title: はじめてのロジバン 第２版
 
 [移転元はこちら](http://seesaawiki.jp/hajiloji/)
 
-## ただいま誤植・凡ミス訂正中です。
+## ただいま誤植・凡ミス鋭意訂正中です。
 
-読んでいく中で、少しでも分かりにくい箇所があれば、[ask.fm](http://ask.fm/okaIUtcan)にて質問してください。
+読んでいく中で、少しでも分かりにくい箇所・ちょっとした質問があれば、  
+[はじめてのロジバン第二版　誤植・修正案・要望・文句 集積所](https://groups.google.com/forum/#!topic/ponjo_lojbo_citno_girzu/nVv9M7N7yMk)や、  
+[おたよりフォーム](contact.html) に書いてくだされば対応します。
 
-また、学習上の質問も ask.fm にてしてくだされば、対応します！
 
 # fi'i do .ui
 ようこそ！このサイトは、ロジバン入門講座です！
