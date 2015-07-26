@@ -265,6 +265,11 @@ a:active { color:#fcb034;}
     padding-bottom: 1px;
 }
 
+/* tweet button */
+.tweetbtn {
+    height: 24px;
+}
+
 /* ## リスト ------- */
 
 /* 大きいリスト */
