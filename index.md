@@ -66,7 +66,7 @@ title: はじめてのロジバン 第２版
 <li ><a href="http://vlasisku.lojban.org/vlasisku/" target="_blank">vlasisku</a>
  : jbovlaste をより使いやすく、スタイリッシュにしたもの。英語。</li>
 <li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/ja/" target="_blank">la sutysisku -日本語版-</a>
- : かなり軽量なロジバン－日本語辞書。オフラインでも使えますURLの"ja"を"en"や"jbo"に変えると各言語版になります。</li>
+ : かなり軽量な日本語辞書。オフラインでも使えます。URLの"ja"を"en"に変えると英語版に！</li>
 <li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/muplis/index.html#sisku/" target="_blank">la muplis</a>
  : Tatoeba.org という例文収集サイトから、ロジバンの例文のみを迅速に調べることのできるツールです。</li>
 <li ><a href="http://guskant.github.io/lojbo/gismu-cmavo/jpn-gimste.html" target="_blank">gismu liste</a>
