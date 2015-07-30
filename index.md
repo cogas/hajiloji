@@ -46,7 +46,7 @@ title: はじめてのロジバン 第２版
 <li ><a href="http://mhagiwara.github.com/cll-ja/" target="_blank">The Complete Lojban Language 日本語抄訳</a>
  : 日本のロジバニスト精鋭が訳した、ロジバン文法の公式文書。</li>
 <li ><a href="http://guskant.github.io/kolojbo.iu/" target="_blank">ko lojbo .iu</a>
- : la .guskant. によるロジバン入門講座。音声があるのがすごくいい。テキストも素晴らしいです！</li>
+ : guskant氏によるロジバン入門講座。音声があるのがすごくいい。テキストも素晴らしいです！</li>
 <li ><a href="http://ja.wikibooks.org/wiki/%E3%83%AD%E3%82%B8%E3%83%90%E3%83%B3" target="_blank">wikibooks ロジバン</a>
  : おなじみのwikibooksです。適度にまとまっています。</li>
 <li ><a href="http://mw.lojban.org/papri/Lojban_Wave_Lessons" target="_blank">Lojban Wave Lessons</a>
@@ -59,22 +59,29 @@ title: はじめてのロジバン 第２版
  : みんなでロジ作問題を出題しあって、ロジ文を書いていくというサイト。いい演習に。</li>
 </ul>
 
-<h3 >辞書とか単語集とか</h3>
+<h3 >様々なツール（辞書・単語集・パーサ・例文検索）</h3>
 <ul  class="small">
 <li ><a href="http://jbovlaste.lojban.org/" target="_blank">jbovlaste</a>
  : 読んで字のごとく「ロジバン辞書」。公式辞書です。</li>
 <li ><a href="http://vlasisku.lojban.org/vlasisku/" target="_blank">vlasisku</a>
  : jbovlaste をより使いやすく、スタイリッシュにしたもの。英語。</li>
-<li ><a href="https://sutsis.appspot.com/" target="_blank">sutsis</a>
- : vlasiskuの軽量版です。</li>
 <li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/ja/" target="_blank">la sutysisku -日本語版-</a>
- : sutsisに似た辞書の日本語版です。URLの"ja"を"en"や"jbo"に変えると各言語版になります。</li>
-<li ><a href="https://skami.iocikun.jp/lojban/tables/ja/gismu_table.html" target="_blank">gismu liste</a>
- : 日本語のgismu定義集。便利！「ctrl + f」でページ内検索かけましょう。</li>
-<li ><a href="https://skami.iocikun.jp/lojban/tables/ja/cmavo_table.html" target="_blank">cmavo liste</a>
- : 日本語のcmavo定義集。便利！</li>
+ : かなり軽量なロジバン－日本語辞書。オフラインでも使えますURLの"ja"を"en"や"jbo"に変えると各言語版になります。</li>
+<li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/muplis/index.html#sisku/" target="_blank">la muplis</a>
+ : Tatoeba.org という例文収集サイトから、ロジバンの例文のみを迅速に調べることのできるツールです。</li>
+<li ><a href="http://guskant.github.io/lojbo/gismu-cmavo/jpn-gimste.html" target="_blank">gismu liste</a>
+ : guskant氏による日本語のgismu定義集。便利！「ctrl + f」でページ内検索かけましょう。</li>
+<li ><a href="http://guskant.github.io/lojbo/gismu-cmavo/jpn-mahoste.html" target="_blank">cmavo liste</a>
+ : guskant氏による日本語のcmavo定義集。便利！</li>
+<li ><a href="http://guskant.github.io/lojbo/gismu-cmavo.html" target="_blank">lo gimste jo'u lo ma'oste</a>
+ : guskant氏による各国のgismu, cmavo リスト一覧。</li>
 <li ><a href="http://cogas.github.io/article/jbo_goldendict.html" target="_blank">オフラインでロジバン辞書を使う</a>
  : GoldenDictというフリーソフトを使ったやり方です。</li>
+<li ><a href="http://jwodder.freeshell.org/lojban/jvozba.cgi" target="_blank">jvozba</a>
+ : lujvo（合成語）を作るのに便利なツール。元となるtanruを入力するとそこから一番いい語形のlujvoを出力してくれます。</li>
+<li ><a href="http://ilmen.tk/lojban/camxes.html" target="_blank">ilmentufa</a>
+ : ロジバンパーサです。つまり、ロジバンの文の構文を解析してくれます。文法が不安なときはココ！</li>
 </ul>
 </div>
+
 
