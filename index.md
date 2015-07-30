@@ -63,8 +63,6 @@ title: はじめてのロジバン 第２版
 <ul  class="small">
 <li ><a href="http://jbovlaste.lojban.org/" target="_blank">jbovlaste</a>
  : 読んで字のごとく「ロジバン辞書」。公式辞書です。</li>
-<li ><a href="http://vlasisku.lojban.org/vlasisku/" target="_blank">vlasisku</a>
- : jbovlaste をより使いやすく、スタイリッシュにしたもの。英語。</li>
 <li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/ja/" target="_blank">la sutysisku -日本語版-</a>
  : かなり軽量な日本語辞書。オフラインでも使えます。URLの"ja"を"en"に変えると英語版に！</li>
 <li ><a href="http://mw.lojban.org/extensions/ilmentufa/i/muplis/index.html#sisku/" target="_blank">la muplis</a>
