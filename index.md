@@ -28,6 +28,8 @@ title: はじめてのロジバン 第２版
 このサイトでは、こしょん(kocon),そら（soran),セヴァン(sevan)といった女の子たちの会話をききながら、  
 楽しくロジバン文法の基礎を学ぶことができます。
 
+<a href="http://www.memrise.com/course/748346/-14197/" target="_blank">はじロジ第二版 単語学習（Memrise）</a>
+
 
 ## 登場人物
 ![](./assets/pixra/koc1.png)
