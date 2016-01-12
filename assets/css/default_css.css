@@ -1,11 +1,12 @@
 <style type="text/css">
 <!--
 
-body {text-align:center; margin:0;}  
+body {text-align:center; margin:0; font-size:10.5pt; font-family:Meiryo UI;}  
 #wrap { width:100%; text-align:left; margin:0 auto; }  
-#inner {margin:1%; margin-top:0; margin-bottom:0;}  
-#mainWrap { width:75%; float:right;}  
-#sideWrap { width:20%; float:left;}  
+#inner {margin:0;}  
+#mainWrap { width:72%; float:right; padding-left:0.25em;}  
+#sideWrap { width:26%; float:left; padding-left:0.5em;}
+.no_margin {margin:0;}
 
 /* フレームの設定 -------------------------------- */
 
@@ -13,8 +14,9 @@ body {text-align:center; margin:0;}
 #titlebar{
 	background-color:#009688;
     margin:0;
+    margin-bottom:5px;
     padding: 10px 0 5px 10px;
-    border-bottom: solid 2px #B2DFDB;
+	box-shadow:0 0 10px 2px rgba(0,0,0,0.3);
     font-size: 32px;
     font-weight:bolder;
     color:#ffffff;
@@ -22,16 +24,8 @@ body {text-align:center; margin:0;}
     cursor:pointer;
 }
 
-
-/* 右側のセクション */
-.mainsection{
-	padding-left:1em;
-    padding-right:1em;
-}
-
-/* サイドバーのセクション */
-.subsection{
-	margin:0;
+#tweetbutton{
+	padding:10px;
 }
 
 .clear { clear:both; }  
@@ -43,45 +37,36 @@ body {text-align:center; margin:0;}
 
 /* -------------------------------- */
 
-/* デフォルト設定 ------------------------------------------------ */
-
-body{/*内容部分*/
-  font-size: 10.5pt;/*文字サイズ*/
-  color: #483929;/*文字色*/
+.accent{
+    color: #e91e63;
 }
 
+/* デフォルト設定 ------------------------------------------------ */
+
 h1{
-  width: 100%;
+  width: 95%;
   font-size: 24pt;
-  color: #584939;
-  padding: 0px 0.5em 1px 0.5em;
-  border-left: solid 3px #8dc63f;
-  border-bottom: solid 6px #8dc63f;
-  filter: alpha(opacity=100,finishopacity=10,style=1);
+  color: #000000;
+  padding-left:0.5em;
+  border-left: solid 6px #00796B;
+  border-bottom: solid 1px #ccc;
   }
 
 h2{
-  width: 100%;
+  width: 95%;
   font-size: 18pt;/*文字サイズ*/
-  color: #584939;/*文字色*/ 
-  padding: 1px 0.5em 5px 0.5em;
-  border-left: solid 3px #8dc63f;
-  border-bottom: solid 4px #584939;
-  filter: alpha(opacity=100,finishopacity=10,style=1);
+  color: #424242;/*文字色*/ 
+  padding-left: 0.5em;
+  border-left: solid 3px #009688;
+  border-bottom: solid 1px #ccc;
 }
 
 h3{
-  width: 100%;
+  width: 95%;
   font-size: 14pt;/*文字サイズ*/
-  color: #584939f;/*文字色*/
-  padding: 1px 1em 5px 0.7em;
-  border-left: solid 3px #584939;
-  border-bottom: dashed 1px #584939;
-  filter: alpha(opacity=100,finishopacity=10,style=1);  
-}
-
-dfn{       
-    font-weight:bold;    
+  color: #616161;/*文字色*/
+  padding-left: 0.5em;
+  border-bottom:  3px double #B2DFDB;
 }
 
 /* デフォルト */
@@ -215,55 +200,6 @@ a:active { color:#fcb034;}
     margin-left: -0.5em;    
 }
 
-/* box keywords */
-.keywords{
-	margin-left:20%;
-	margin-right:20%;
-    background-color: #e5f2ff;
-    font-size:10pt;
-    border: 0px;
-}
-.keywords .title{
-    font-size:12pt;
-    color:#f79412;
-    font-weight:bold;
-}
-
-/* box problem 章内問題 */
-.problem{
-    border: 2px solid #665e51;
-    border-radius:5px;   
-}
-.problem .title{
-    color: #665e51;
-    font-size: 13pt;
-    font-weight: bold;
-    margin-left: -0.5em;    
-}
-
-
-/* box valsi */
-.valsi {
-    border: 1px solid #86a070;
-    border-radius:2px;
-}
-
-/* box valsi drani （重要語句）*/
-.drani{
-    border: 2px dashed #bf545e;
-}
-.drani dfn{
-    font-size:large;
-}
-
-/* jufra */
-.jufra {
-	border-left: 4px solid #00aeef;
-    padding-left: 1em;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-
 /* ## リスト ------- */
 
 /* 大きいリスト */
@@ -282,37 +218,6 @@ ul.small {
 
 ul.small li{
     margin-bottom: 5px;
-}
-
-/* 章末問題のリスト */
-ol.plist li{
-    list-style-type:upper-roman;
-    font-size: 16px;
-}
-
-ol.plist li ol{
-	font-size: 14px;
-	padding-left: 1em;
-    margin-bottom: 0.7em;
-}
-
-ol.plist li ol li{
-	font-size:inherit;
-	padding-top: 0.2em;
-    padding-bottom:0.2em;
-    list-style-type:decimal;
-}
-
-/* ## テーブル ------------ */
-
-
-/* 章末の単語リスト */
-#vocab td{
-    font-size: small;
-}
-
-#vocab .meaning{
-    width: 600px;
 }
 
 /* リンク */

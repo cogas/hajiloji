@@ -3,7 +3,7 @@ layout: default
 title: はじめてのロジバン 第２版
 ---
 
-#<font color="#bf545e">ニューゲーム暫定完成しました！</font>
+# <span class="accent">ニューゲーム暫定完成しました！</span>
 
 誤植や細かな修正を除けば完成しています！ 進化したはじロジをよろしくお願いします！
 
@@ -30,8 +30,8 @@ title: はじめてのロジバン 第２版
 
 <a href="http://www.memrise.com/course/748346/-14197/" target="_blank">はじロジ第二版 単語学習（Memrise）</a>
 
-
 ## 登場人物
+
 ![](./assets/pixra/koc1.png)
 ![](./assets/pixra/sor2.png)
 ![](./assets/pixra/sev1.png)
