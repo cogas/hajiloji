@@ -1,21 +1,21 @@
 $(function () {
-  $('.mainsection').each(function(){
+  $('#mainWrap').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/problem:::/g,'<div class="'+'box problem'+'">'));
   });
-  $('.mainsection').each(function(){
+  $('#mainWrap').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/note:::/g,'<div class="'+'box note'+'">'));
   });
-  $('.mainsection').each(function(){
+  $('#mainWrap').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/memo:::/g,'<div class="'+'box memo'+'">'));
   });
-  $('.mainsection').each(function(){
+  $('#mainWrap').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/jufra:::/g,'<div class="'+'jufra'+'">'));
   });
-  $('.mainsection').each(function(){
+  $('#mainWrap').each(function(){
         var txt = $(this).html();
         $(this).html(txt.replace(/::::/g,"</div>"));
   });
@@ -32,7 +32,7 @@ $(function () {
     return location.origin + "/hajiloji" + val;
   });
 　$('.target_blank a').attr("target='_blank'");
-  $(document).on('click','.titlebar',function(){
+  $(document).on('click','#titlebar',function(){
     document.location = location.origin + "/hajiloji/"; 
   });
 });

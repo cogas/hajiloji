@@ -1,11 +1,10 @@
 <style type="text/css">
 <!--
 
-body {text-align:center; margin:0; font-size:10.5pt; font-family:Meiryo UI;}  
 #wrap { width:100%; text-align:left; margin:0 auto; }  
 #inner {margin:0;}  
-#mainWrap { width:72%; float:right; padding-left:0.25em;}  
-#sideWrap { width:26%; float:left; padding-left:0.5em;}
+#mainWrap { width:75%; float:right; padding-left:0.25em;}  
+#sideWrap { width:23%; float:left; padding-left:0.5em; padding-top:20px;}
 .no_margin {margin:0;}
 
 /* フレームの設定 -------------------------------- */
@@ -17,7 +16,7 @@ body {text-align:center; margin:0; font-size:10.5pt; font-family:Meiryo UI;}
     margin-bottom:5px;
     padding: 10px 0 5px 10px;
 	box-shadow:0 0 10px 2px rgba(0,0,0,0.3);
-    font-size: 32px;
+    font-size: 32pt;
     font-weight:bolder;
     color:#ffffff;
     letter-spacing:0.1em;
@@ -42,6 +41,10 @@ body {text-align:center; margin:0; font-size:10.5pt; font-family:Meiryo UI;}
 }
 
 /* デフォルト設定 ------------------------------------------------ */
+
+body{
+  font-size: 10.5pt;
+}
 
 h1{
   width: 95%;
@@ -69,7 +72,7 @@ h3{
   border-bottom:  3px double #B2DFDB;
 }
 
-/* デフォルト */
+/* デフォルト 
 ul {
 	list-style-type:square;
     margin: 1em;
@@ -83,7 +86,7 @@ ul li {
 
 ol li{
     margin: 0.5em;
-}
+}*/
 
 .no_stika_ul{
 	list-style-type:square;
@@ -154,6 +157,10 @@ a:link { color:#5161ac;}
 a:visited { color:darkslateblue;}
 a:hover { color:#ef4035;}
 a:active { color:#fcb034;}
+a{
+    text-decoration: none;
+}
+
 
 .box{
 	margin-top: 1.5em;

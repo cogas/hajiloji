@@ -1,14 +1,22 @@
+<!doctype html>
+<html lang='jpn'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sidemenu_interactive.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+</head>
 <body class="no_margin">
-<h3>メニュー</h3>
 
-<ul class="no_stika_ul">
+<div id='cssmenu'>
+<ul>
 <li ><a href="{{ site.baseurl }}/">トップ</a></li>
-<li ><a href="{{ site.baseurl }}/includes/sidebar.html">目次*</a></li>
 <li ><a href="{{ site.baseurl }}/article/nunctu/0.html">キャラ紹介*</a></li>
-</ul>
 
-<h3 >▶ ニューゲーム</h3>
-<ol class="no_stika_ul nav drawer-nav-list">
+<li class="has-sub">▶ ニューゲーム
+<ul>
 <li ><a href="{{ site.baseurl }}/article/nunctu/1.html">ごあいさつ</a></li>
 <li ><a href="{{ site.baseurl }}/article/nunctu/2.html">発音とアルファベット*</a></li>
 <li ><a href="{{ site.baseurl }}/article/nunctu/3.html">品詞とアクセント*</a></li>
@@ -36,11 +44,11 @@
 <li ><a href="{{ site.baseurl }}/article/nunctu/25.html">心態詞*</a></li>
 <li ><a href="{{ site.baseurl }}/article/nunctu/26.html">おわりに…？*</a></li>
 <li ><a href="{{ site.baseurl }}/article/nunctu/27.html">【命題と性質】*</a></li>
-<li ><a href="{{ site.baseurl }}/article/nunctu/28.html">【存在と形式論理】*</a></li>
-</ol>
+<li class="last"><a href="{{ site.baseurl }}/article/nunctu/28.html">【存在と形式論理】*</a></li>
+</ul></li>
 
-<h3 >▶ 強くてコンティニュー</h3>
-<ul  class="sidelist inter small nav drawer-nav-list">
+<li class="has-sub">▶ 強くてコンティニュー
+<ul>
 <li>位置構造</li>
 <li >tanru</li>
 <li >冠詞</li>
@@ -55,17 +63,17 @@
 <li >引用・限定詞</li>
 <li >代詞</li>
 <li >心態詞</li>
-<li >大きな構造</li>
-</ul>
+<li class="last">大きな構造</li>
+</ul></li>
 
-<h3 >はじロジ ツール</h3>
+<li class="has-sub">▶ はじロジ ツール
+<ul>
 <li ><a href="https://github.com/cogas/hajiloji/wiki/%E3%81%AF%E3%81%98%E3%83%AD%E3%82%B8-FAQ">はじロジFAQ</a></li>
-<li><a href="http://www.memrise.com/course/748346/-14197/" target="_blank">はじロジ単語学習（Memrise）</a></li>
-</ul>
+<li class="last"><a href="http://www.memrise.com/course/748346/-14197/" target="_blank">はじロジ単語学習（Memrise）</a></li>
+</ul></li>
 
-
-<h3 >補習授業</h3>
-<ul  class="sidelist inter small">
+<li class="has-sub">▶ 補習授業
+<ul>
 <li >PSの傾向</li>
 <li >終止詞</li>
 <li >tanruを括弧よく</li>
@@ -74,12 +82,12 @@
 <li >解タグ新書</li>
 <li >数をもっと！</li>
 <li >制、モア！</li>
-<li >もっと論理接続</li>
-</ul>
+<li class="last">もっと論理接続</li>
+</ul></li>
 
-<h3 >補助資料</h3>
-<ul class="sidelist inter small">
-<li ><a href="/article/djukarni/ui.html">心態詞チョイス**</a></li>
+<li class="has-sub">▶ 補助資料
+<ul>
+<li ><a href="{{ site.baseurl }}/article/djukarni/ui.html">心態詞チョイス**</a></li>
 <li >新文法案について</li>
 <li >主観世界について</li>
 <li >PU,FAhAリスト</li>
@@ -88,6 +96,10 @@
 <li >接続詞リスト</li>
 <li >lujvo要論</li>
 <li >fu'ivla要論</li>
-<li >チートシート</li>
+<li class="last">チートシート</li>
+</ul></li>
 </ul>
+</div>
+
 </body>
+<html>

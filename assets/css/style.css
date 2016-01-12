@@ -1,6 +1,8 @@
 <style type="text/css">
 <!--
 
+/* これは20160113時点で旧いものになりました。これ以降はdefault_css, nunctu_cssに分割されて管理されています。 */
+
 body {text-align:center; margin:0;}  
 #wrap { width:100%; text-align:left; margin:0 auto; }  
 #inner {margin:1%; margin-top:0; margin-bottom:0;}  
