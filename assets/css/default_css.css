@@ -34,8 +34,6 @@
     float:right;
 }
 
-
-
 .clear { clear:both; }  
 .clear hr { display:none; }
 
@@ -97,6 +95,10 @@ ul li {
 ol li{
     margin: 0.5em;
 }*/
+
+ul{
+	list-style-type:square;    
+}
 
 .no_stika_ul{
 	list-style-type:square;
@@ -171,7 +173,6 @@ a{
     text-decoration: none;
 }
 
-
 .box{
 	margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -195,14 +196,14 @@ a{
 
 /* box note */
 .note{
-    border: 2px solid #149bdf;
-    border-radius:5px;  
+    padding: 5px 5px;
+    border: 2px solid #ccc; 
+    border-radius: 3em .7em 2em .7em/.7em 2em .7em 3em;
 }
 .note .title{
     color: #149bdf;
     font-size: 13pt;
     font-weight: bold;
-    margin-left: -0.5em;    
 }
 
 /* box memo */
@@ -240,6 +241,11 @@ ul.small li{
 /* リンク */
 .subsection a{
     text-decoration: none;
+}
+
+.icon{
+    width:20px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
 }
 
 
