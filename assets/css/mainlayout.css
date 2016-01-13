@@ -1,0 +1,84 @@
+<style type="text/css">
+<!--
+
+.dummy{
+    
+}
+
+.accent{
+    color: #e91e63;
+}
+
+h1{
+  width: 95%;
+  font-size: 24pt;
+  color: #000000;
+  padding-left:0.5em;
+  border-left: solid 6px #00796B;
+  border-bottom: solid 1px #ccc;
+  }
+
+h2{
+  width: 95%;
+  font-size: 18pt;
+  color: #424242; 
+  padding-left: 0.5em;
+  border-left: solid 3px #009688;
+  border-bottom: solid 1px #ccc;
+}
+
+h3{
+  width: 95%;
+  font-size: 14pt;
+  color: #616161;
+  padding-left: 0.5em;
+  border-bottom:  3px double #B2DFDB;
+}
+
+/* 罫線 */
+hr{
+	margin-left: 10px -20px;
+	background-color: #009688;
+    height: 1px;
+	border: none;
+}
+
+header{
+    font-size:small;
+}
+
+footer{
+    position:bottom;
+    font-size:small;
+    text-align:center;
+}
+
+footer .left{
+    float:left;
+    margin-bottom:0.5em;
+}
+
+footer .right{
+    float:right;
+    margin-bottom:0.5em;
+}
+
+/* ------ リンク ------- */
+
+a:link { color:#5161ac;}
+a:visited { color:darkslateblue;}
+a:hover { color:#ef4035;}
+a:active { color:#fcb034;}
+a{
+    text-decoration: none;
+}
+
+.subsection a{
+    text-decoration: none;
+}
+
+.icon{
+}
+
+-->
+</style>

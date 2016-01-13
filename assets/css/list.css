@@ -1,0 +1,67 @@
+<style type="text/css">
+<!--
+
+.dummy{}
+
+/* ## リスト ------- */
+/* デフォルト 
+ul {
+	list-style-type:square;
+    margin: 1em;
+    padding-left:2em;
+	border-left: solid 3px #eabd00;
+}
+
+ul li {
+	margin: 0.5em;
+}
+
+ol li{
+    margin: 0.5em;
+}*/
+
+
+ul > li {
+	list-style-type:square;
+	margin: 0.3em;
+}
+
+/* 大きいリスト */
+ul.big {
+	font-size:12pt;
+}
+
+ul.big li{
+    margin-bottom: 5px;
+}
+
+/* 小さいリスト／サイドバーのリスト */
+ul.small {
+	font-size:10pt;
+}
+
+ul.small li{
+    margin-bottom: 5px;
+}
+
+/* 章末問題のリスト 
+ol.plist li{
+    list-style-type:upper-roman;
+    font-size: 16px;
+}
+
+ol.plist li ol{
+	font-size: 14px;
+	padding-left: 1em;
+    margin-bottom: 0.7em;
+}
+
+ol.plist li ol li{
+	font-size:inherit;
+	padding-top: 0.2em;
+    padding-bottom:0.2em;
+    list-style-type:decimal;
+}*/
+
+-->
+</style>

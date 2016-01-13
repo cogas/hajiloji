@@ -1,0 +1,130 @@
+<style type="text/css">
+<!--
+
+.dummy{
+}
+
+/* こいつは何だ
+.titlebox{
+}
+.titlebox:first-child{
+    font-size: 13pt;
+    font-weight: bold;
+    margin-left: -0.5em;    
+}*/
+
+.box, .note, .memo, .problem,
+.jufra, .valsi, .drani{
+    margin: 15px 30px;
+    padding: 10px;
+    border: 1px solid #888;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+}
+
+.hole{
+    border:none;
+    background-color:#f5f5f5;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2) inset;
+}
+
+.title{
+    letter-spacing: 4px;
+	margin: -5px 0 5px -2.5px;
+    font-size: 13pt;
+    font-weight: bolder;    
+}
+
+.note{
+   border-color:#4DB6AC; 
+}
+.note .title{
+	font-size:small;
+    color: #4DB6AC;
+}
+
+.problem{
+    border: 2px solid #004D40;
+}
+.problem .title{
+    color: #004D40;
+	font-size:small;
+}
+.problem > li{
+	list-style-type:none;
+}
+.problem > li > ol > li > ul{
+	padding:0 0px;
+}
+.problem > li > ol > li > ul > li{
+	list-style-type:none;
+    margin: 2px 0px;
+}
+
+/* jufra box の内部は実際はリストである。 */
+.jufra {
+	border: none;
+    margin: 0;
+    padding-left: 5px;
+    background-color:none /* #E0F2F1 */;
+    box-shadow:none;
+}
+.jufra > li{
+    list-style-type:none;
+    border-bottom: 2px dotted #E0F2F1;
+    margin: 10px 0;
+    font-size:110%;
+}
+.jufra > li > ul{
+    padding: 0 10px;
+}
+.jufra > li > ul > li{
+    list-style-type:none;
+    margin: 2px 5px;
+    font-size:10.5pt;
+}
+
+.valsi {
+    border: 1px solid #00BFA5;
+    box-shadow:none;
+}
+
+.drani{
+    border: none ;
+    background-color: #FFF8E1;
+}
+
+.valsi > dt,
+.drani > dt {
+    font-weight:bold;
+    font-style:italic;
+}
+.drani > dt{
+    font-size:large;    
+}
+
+/* 一応 memo は用意しているが、全く使わない。 */
+.memo{
+    border: 2px solid #FF9800;
+}
+.memo .title{
+    color: #FF9800;
+	font-size:small;
+}
+
+/* box keywords ※2016/1/13にキーワードはコンテンツから廃止した。
+.keywords{
+	margin-left:20%;
+	margin-right:20%;
+    background-color: #e5f2ff;
+    font-size:10pt;
+    border: 0px;
+}
+.keywords .title{
+    font-size:12pt;
+    color:#f79412;
+    font-weight:bold;
+}*/
+
+
+-->
+</style>

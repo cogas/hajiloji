@@ -1,0 +1,33 @@
+<style type="text/css">
+<!--
+
+/* 表の基本設定 */
+table{
+    margin-left:2em;
+    margin-right:auto;
+    border: 2px #665e51 solid;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+}
+
+table,th,td{
+	 border-collapse:collapse;
+}
+
+td,th{
+     border: 1px #665e51 solid;
+	 padding: 3px 7px;
+     margin-left: 5em;
+}
+
+/* 章末の単語リスト */
+#vocab td{
+    font-size: small;
+}
+
+#vocab .meaning{
+    width: 600px;
+}
+
+-->
+</style>

@@ -1,3 +1,7 @@
+.dummy{
+    
+}
+
 input[type=radio]{
   display: none;
 }
@@ -9,15 +13,15 @@ input[type=radio]{
   display: inline-block;
   margin: 0 20px 8px 0;
   padding: 12px 12px 12px 42px;
-  border-radius: 8px;
+  border-radius:4px;
   vertical-align: middle;
   cursor: pointer;
 }
 .radio:hover{
-  background-color:#e6d9b9;
+  background-color:#B2DFDB;
 }
 .radio:hover:after{
-  border-color:#ea7f1e;    
+  border-color:#e91e63;    
 }
 .radio:after{
   -webkit-transition: border-color 0.2s linear;
@@ -25,26 +29,25 @@ input[type=radio]{
   position: absolute;
   top: 50%;
   left: 15px;
-  display: block;
+  display:block;
   margin-top: -10px;
   width: 14px;
   height: 14px;
-  border: 2px solid #7d6a55;
-  border-radius: 6px;
+  /* border: 2px solid #e91e63; */
   content: '';
 }
 .radio:before {
   -webkit-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 20px;
   display: block;
   margin-top: -5px;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background-color:#ea7f1e;
+  background-color:#e91e63;
     
   content: '';
   opacity: 0;
@@ -54,7 +57,6 @@ input[type=radio]:checked + .radio:before {
 }
 
 input[type=button]{
-    border-radius:4px;
     border:2px solid #149bdf;
 	background-color:inherit;
     color:inherit;

@@ -1,3 +1,7 @@
+.dummy{
+    
+}
+
 @media print{
 #sideWrap{display:none;}
 #mainWrap{width:100%; padding: 0px, 0px, 0px, 0px; float:none;}
