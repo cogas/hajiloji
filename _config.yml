@@ -11,8 +11,6 @@ author:
 url: "http://cogas.github.io"
 baseurl: "/hajiloji" # the subpath of your site, e.g. /blog/
 
-# relative_permalinks: true
-
 twitter_username: oka_iu_tcan
 github_username:  cogas
 
