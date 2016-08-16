@@ -9,7 +9,7 @@ author:
   email: cheeky.chic.chick@gmail.com
 
 url: "http://cogas.github.io"
-baseurl: "/hajiloji/" # the subpath of your site, e.g. /blog/
+baseurl: "/hajiloji" # the subpath of your site, e.g. /blog/
 
 # relative_permalinks: true
 
