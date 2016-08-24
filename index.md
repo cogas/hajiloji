@@ -86,8 +86,8 @@ title: はじめてのロジバン 第２版
 
 # 更新履歴
 
-- 2016/8/17: 前日に引き続いて修正。ki'e ke'u .sozysozbot. 
+- 2016/8/24: [指摘](https://groups.google.com/d/msg/ponjo_lojbo_citno_girzu/nVv9M7N7yMk/ofTMS5nKEAAJ), [指摘2](https://groups.google.com/d/msg/ponjo_lojbo_citno_girzu/nVv9M7N7yMk/IjkqS-o6EgAJ) に従って加筆修正しました。 ki'e la sozysozbot. joi le pendo be ri
+- 2016/8/17: 前日に引き続いて修正。ki'e ke'u .sozysozbot.
 - 2016/8/16: [指摘](https://groups.google.com/d/msg/ponjo_lojbo_citno_girzu/nVv9M7N7yMk/Gd5QmBuKDwAJ)に従って加筆修正しました。ki'e .sozysozbot.
 - 2016/1/21: 「つよコン」4章アップしました。
 - 2016/1/14: レイアウトを刷新しました。
-
