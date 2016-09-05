@@ -11,7 +11,7 @@
 
 h1{
   color: #000000;
-  padding-left:0.5em;
+  padding-left: 0.5em;
   border-left: solid 6px #00796B;
   border-bottom: solid 1px #ccc;
 }
@@ -61,14 +61,18 @@ a{
     text-decoration: none;
 }
 
-.icon{
+
+@media screen and (max-width : 512px){
+  .icon{
+    width: 4em;
+  }
 }
 
 #yesnoans{
-    margin:2em 5em;
-    color:#ef4035;
-    font-size:large;
-    font-weight:bold;
+  margin-left: 3em;
+  color:#ef4035;
+  font-size:large;
+  font-weight:bold;
 }
 
 -->

@@ -2,6 +2,7 @@
 <!--
 
 /* 表の基本設定 */
+/*
 table{
     margin-left:2em;
     margin-right:auto;
@@ -18,7 +19,7 @@ td,th{
      border: 1px #665e51 solid;
 	 padding: 3px 7px;
      margin-left: 5em;
-}
+}*/
 
 /* 章末の単語リスト */
 #vocab td{
@@ -26,7 +27,7 @@ td,th{
 }
 
 #vocab .meaning{
-    width: 600px;
+    width: 80%;
 }
 
 -->

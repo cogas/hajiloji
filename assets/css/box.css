@@ -4,15 +4,6 @@
 .dummy{
 }
 
-/* こいつは何だ
-.titlebox{
-}
-.titlebox:first-child{
-    font-size: 13pt;
-    font-weight: bold;
-    margin-left: -0.5em;    
-}*/
-
 .box, .note, .memo, .problem,
 .jufra, .valsi, .drani{
     margin: 15px 30px;
@@ -31,11 +22,11 @@
     letter-spacing: 4px;
 	margin: -5px 0 5px -2.5px;
     font-size: 13pt;
-    font-weight: bolder;    
+    font-weight: bolder;
 }
 
 .note{
-   border-color:#4DB6AC; 
+   border-color:#4DB6AC;
 }
 .note .title{
 	font-size:small;
@@ -60,7 +51,7 @@
     margin: 2px 0px;
 }
 
-/* jufra box の内部は実際はリストである。 */
+/* jufra box の内部は実際はリスト */
 .jufra {
 	border: none;
     margin: 0;
@@ -99,7 +90,11 @@
     font-style:italic;
 }
 .drani > dt{
-    font-size:large;    
+    font-size:large;
+}
+.valsi > dd {
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 /* 一応 memo は用意しているが、全く使わない。 */

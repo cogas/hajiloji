@@ -1,19 +1,11 @@
 .dummy{
-    
+
 }
 
 @media print{
 #sideWrap{display:none;}
 #mainWrap{float:none; width:100%;}
 #contentWrap{width:100%; padding: 0px, 0px, 0px, 0px; box-shadow:none;}
-.titlebar{
-	padding: 0.5px 0.5em 0.5px 0.5em;
-    font-size: 6px;
-    font-weight: bolder;
-    color:#ffffff;
-	border:none;
-    letter-spacing:0.1em;
-	box-shadow:none;
 #mainFooter{display:none;}
 #vocab td{
 	font-size: 9pt;
