@@ -2,13 +2,24 @@
 layout: default
 ---
 
+<nav>
+	<ul class="pager">
+		{% if page.prulahi %}
+			<li class="previous"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.prulahi }}.html">前へ</a></li>
+		{% endif %}
+		{% if page.bavlahi %}
+			<li class="next"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.bavlahi }}.html">次へ</a></li>
+		{% endif %}
+	</ul>
+</nav>
+
 <h1>{{page.title}}</h1>
 
 {{content}}
 
 <hr>
 
-{% if page.ctuca %}
+{% if page.TFa %}
 <h3 >○×問題</h3>
 <div id="TFquestion">
 <ol >
@@ -22,7 +33,9 @@ layout: default
 <input type="hidden" name="answer" value="{{ page.TFa }}">
 
 <hr>
+{% endif %}
 
+{% if page.TFa or page.ctuca %}
 <h3 >今回出てきた単語</h3>
 
 <div>

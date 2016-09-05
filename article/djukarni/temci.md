@@ -10,6 +10,7 @@ date: 2015-7-19
 ** 期間系のgismu
 　さて、時間表現を担うgismuを列挙していきます。まずは、時間、分間、秒間を表すgismuです。
 
+{:.table .table-striped}
 |cacra | x1はx2時間(x3という基準で)|
 |mentu | x1はx2分間(x3という基準で)|
 |snidu | x1はx2秒間(x3という基準で)|
@@ -28,6 +29,7 @@ mi bajra ze'i lo cacra be li mu - 私は５時間だけ走る。
 　次は、日間、週間、月間、年間を表すgismuです。
 これらもx2が省略された場合は、1が想定されます。
 
+{:.table .table-striped}
 |djedi | x1はx2日間(x3という基準で)|
 |jeftu |  x1はx2週間(x3という基準で)|
 |masti | x1はx2ヶ月間(x3という基準で)|
@@ -40,6 +42,7 @@ mi co'a cacra li remu baza vo masti - ４ヶ月後、私は２５歳になる。
 ** 日時系のgismu
 　次に、日時表現を表すgismuを見ていきます。
 
+{:.table .table-striped}
 |tcika | x1(時、分、秒）はx2(事）のx3(日）・x4(場所)での時刻|
 |detri | x1(日、{週、月}、年)はx2(事）のx3(場所）・x4(暦)での日付|
 |datru | x1(事）はx2日、x3月、x4年のx5（暦）で起きる|
@@ -59,6 +62,7 @@ tcika、detri由来のBAIが存在し、それぞれti'uとde'iです。こっ�
 　基本的なgismuについて見てきたので、ここからその組み合わせによるlujvoをみます。
 　まず、昨日、今日、明日からいきます。PSはあえて載せません。
 
+{:.table .table-striped}
 |lo cabdei| 今日|
 |lo prulamdei | 昨日|
 |lo bavlamdei | 明日|
@@ -70,21 +74,26 @@ prulam-は purci（過去)+lamji(隣）から、bavlam-はbalvi(未来)+lamji(�
 このcab-, prulam-, bavlam- は便利で、jeftu(週)やmasti(月）やnanca(年）にもつきます。
 ちなみに、masti、cacraのrafsiはそれぞれma'iとna'aです。
 
+{:.table .table-striped}
 |lo cabjeftu | 今週|
 |lo prulamjeftu | 先週|
 |lo bavlamjeftu | 来週|
 
+{:.table .table-striped}
 |lo cabma'i | 今月|
 |lo prula'ima'i | 先月|
 |lo bavla'ima'i | 来月|
 ※lamだとmが重なるので、lamではなくla'iを使っています。
 
+{:.table .table-striped}
 |lo cabna'a |今年|
 |lo prulamna'a | 去年|
 |lo bavlamna'a |来年|
 
 ** 日時系のlujvo～曜日と月
 　曜日から行きましょう。
+
+{:.table .table-striped}
 |pavdei|　月曜日|
 |reldei|　火曜日|
 |cibdei　|水曜日|
@@ -98,6 +107,8 @@ prulam-は purci（過去)+lamji(隣）から、bavlam-はbalvi(未来)+lamji(�
 日曜だけ二つあるのは日曜日を０日目とするか７日目とするかが文化によるからです。
 
 　次に月を見ていきます。
+
+{:.table .table-striped}
 |pavmasti|　１月|
 |relmasti|　２月|
 |cibmasti|　３月|

@@ -14,6 +14,7 @@ h1{
   padding-left: 0.5em;
   border-left: solid 6px #00796B;
   border-bottom: solid 1px #ccc;
+  margin-bottom: 0.5em;
 }
 
 h2{
@@ -21,11 +22,13 @@ h2{
   padding-left: 0.5em;
   border-left: solid 3px #009688;
   border-bottom: solid 1px #ccc;
+  margin-bottom: 0.5em;
 }
 
 h3{
   color: #616161;
-  padding-left: 0.5em;
+  padding-left: 0.2em;
+  padding-bottom: 0.1em;
   border-bottom:  3px double #B2DFDB;
 }
 
@@ -73,6 +76,15 @@ a{
   color:#ef4035;
   font-size:large;
   font-weight:bold;
+}
+
+@font-face {
+  font-family: 'PixelMplus12';
+  src: url('../font/PixelMplus12-Bold.ttf') format('truetype');
+}
+
+.game{
+  font-family: 'PixelMplus12';
 }
 
 -->
