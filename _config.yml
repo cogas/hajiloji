@@ -1,9 +1,7 @@
-# permalink: :categories/
 
 # Site settings
 lang: ja
 title: はじめてのロジバン 第２版
-email: ""
 author:
   name: cogas.iuk.uasanbon
   email: cheeky.chic.chick@gmail.com
@@ -16,4 +14,3 @@ github_username:  cogas
 
 # Build settings
 markdown: kramdown
-

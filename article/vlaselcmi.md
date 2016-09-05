@@ -1,9 +1,7 @@
 ---
-layout: post_not_ctuca_not_prulahi_not_bavlahi
+layout: post_not_ctuca
 title: おまけ. vlaselcmi
 date: 2015-4-12
-prulahi: 6
-bavlahi: 8
 ---
 {% include icons.md %}
 

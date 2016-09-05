@@ -1,8 +1,7 @@
 ---
-layout: post_not_ctuca_not_prulahi
+layout: post_not_ctuca
 title: 指導書・仕様書・案件
 date: 2015-7-20
-bavlahi: 1
 ---
 {% include icons.md %}
 
@@ -129,7 +128,7 @@ problem:::
 上の３つの文を、すべて冠頭のある形に書き直せ。例として１つ目だけ答えを書く。
 
 1. pa ti blanu <b>= pa da poi ke'a me ti zo'u da blanu</b>
-2. ro ma'a ninmu 
+2. ro ma'a ninmu
 3. re lo mu verba cu sipna
 
 ::::

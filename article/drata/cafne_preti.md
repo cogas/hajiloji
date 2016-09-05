@@ -1,5 +1,5 @@
 ---
-layout: post_not_ctuca_not_prulahi_not_bavlahi
+layout: post_not_ctuca
 title: cafne preti - よくある質問 -
 date: 2015-4-5
 ---

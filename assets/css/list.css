@@ -4,7 +4,7 @@
 .dummy{}
 
 /* ## リスト ------- */
-/* デフォルト 
+/* デフォルト
 ul {
 	list-style-type:square;
     margin: 1em;
@@ -20,11 +20,11 @@ ol li{
     margin: 0.5em;
 }*/
 
-
+/* 2016.9.3 bootstrap導入のため
 ul > li {
 	list-style-type:square;
 	margin: 0.3em;
-}
+}*/
 
 /* 大きいリスト */
 ul.big {
@@ -44,7 +44,7 @@ ul.small li{
     margin-bottom: 5px;
 }
 
-/* 章末問題のリスト 
+/* 章末問題のリスト
 ol.plist li{
     list-style-type:upper-roman;
     font-size: 16px;

@@ -1,5 +1,5 @@
 ---
-layout: post_not_ctuca_not_prulahi_not_bavlahi
+layout: post_not_ctuca
 title: le lisri
 date: 2015-7-16
 ---

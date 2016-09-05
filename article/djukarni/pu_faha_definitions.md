@@ -1,5 +1,5 @@
 ---
-layout: post_not_ctuca_not_prulahi_not_bavlahi
+layout: post_not_ctuca
 title: PU, FAhA 定義集
 date: 2015-7-19
 ---
@@ -34,11 +34,9 @@ date: 2015-7-19
 |te'e|fi'o se koizva|～の境界で/隅で|
 |pa'o|fi'o se pagre|～を通過して/通り越して|
 
-＠FAhA4 : 
+＠FAhA4 :
 |fa'a|fi'o farna|～の方に|
 |to'o|fi'o fardukti|～と反対方向に|
 |ze'o|fi'o se ragve|～(境界)を横断して/よりも外側へ|
 |zo'a|fi'o se noryragve|～(境界)に近接して|
 |zo'i|fi'o se tolragve|～(境界)よりも内奥へ/から近づいて|
-
-

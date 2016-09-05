@@ -1,5 +1,5 @@
 ---
-layout: post_not_ctuca_not_prulahi_not_bavlahi
+layout: post_not_ctuca
 title: 心態詞チョイス
 date: 2015-7-19
 ---
@@ -94,4 +94,3 @@ date: 2015-7-19
 |ji'a|追加事例|「～もまた」|
 |ku'i|対照的事例|「しかし～」|
 |po'o|唯一の事例|「～だけ」|
-
