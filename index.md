@@ -20,6 +20,9 @@ title: はじめてのロジバン 第２版
 このサイトでは、こしょん(kocon),そら（soran),セヴァン(sevan)といった女の子たちの会話をききながら、  
 楽しくロジバン文法の基礎を学ぶことができます。
 
+![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.img-responsive .center-block}
+
+
 # 登場人物
 
 ![koc1]

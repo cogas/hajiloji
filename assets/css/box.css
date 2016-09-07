@@ -6,7 +6,7 @@
 
 .box, .note, .memo, .problem,
 .jufra, .valsi, .drani{
-    margin: 15px 30px;
+    margin: 15px 5%;
     padding: 10px;
     border: 1px solid #888;
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
@@ -92,7 +92,8 @@
 .drani > dt{
     font-size:large;
 }
-.valsi > dd {
+.valsi > dd,
+.drani > dd {
   padding-left: 0.5em;
   padding-bottom: 0.5em;
 }
