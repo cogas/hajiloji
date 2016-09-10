@@ -1,7 +1,3 @@
-.dummy{
-
-}
-
 @media print{
 #sideWrap{display:none;}
 #mainWrap{float:none; width:100%;}
