@@ -17,7 +17,7 @@ title: はじめてのロジバン 第２版
 
 しかし、ロジバンは従来の自然言語の「贅肉」を取り払った、非常にシンプルな言語だと言えます！  
 
-このサイトでは、こしょん(kocon),そら（soran),セヴァン(sevan)といった女の子たちの会話をききながら、  
+このサイトでは、こしょん(kocon),そら(soran),セヴァン(sevan)といった女の子たちの会話をききながら、  
 楽しくロジバン文法の基礎を学ぶことができます。
 
 ![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.img-responsive .center-block}
