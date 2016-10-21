@@ -123,7 +123,8 @@ prulam-は purci（過去）+lamji（隣）から、bavlam-はbalvi（未来）+
 |pavrelmasti　|１２月|
 
 接尾辞がmastiで、接頭辞が数字のrafsi形なのは曜日と同じです。
-mmやzmは禁則子音なのでその間にはyが挟んであります。
+mm, vpは禁則子音列なのでその間にはyが挟んであります。
+sozymastiはsozmastiとすると{so zmasti}と同じ発音になり、言文一致に反するのでyが入ります。
 数字の母音はa,e,i,o,uで繰り返されますが、それに応じてrafsi形にも規則性があります。
 a v
 e l
