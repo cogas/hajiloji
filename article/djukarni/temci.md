@@ -17,7 +17,7 @@ date: 2015-7-19
 
 これに関しては、主bridiのselbriとして使われることはあまりないと思います。
 これらはしばしばsumtiとして使われる方が多いでしょう。
-x2が省略された場合は、1が想定されます（lo cacra = 1時間)
+x2が省略された場合は、1が想定されます（lo cacra = 1時間）
 量化することによって、「３時間」を「3つ分の時間」、 lo ci cacra としてもいいです。
 
 lo nu mi bajra cu cacra li mu - 私が走るということは５時間だ。 = 私は５時間走る。
@@ -43,9 +43,9 @@ mi co'a cacra li remu baza vo masti - ４ヶ月後、私は２５歳になる。
 　次に、日時表現を表すgismuを見ていきます。
 
 {:.table .table-striped}
-|tcika | x1(時、分、秒）はx2(事）のx3(日）・x4(場所)での時刻|
-|detri | x1(日、{週、月}、年)はx2(事）のx3(場所）・x4(暦)での日付|
-|datru | x1(事）はx2日、x3月、x4年のx5（暦）で起きる|
+|tcika | x1（時、分、秒）はx2（事）のx3（日）・x4（場所）での時刻|
+|detri | x1（日、{週、月}、年）はx2（事）のx3（場所）・x4（暦）での日付|
+|datru | x1（事）はx2日、x3月、x4年のx5（暦）で起きる|
 
 tcikaやdetriのx1では、pi'eで区切って時、分、秒や日、週、月、年を表します。
 li pa pi'e cino - １時３０分
@@ -69,9 +69,9 @@ tcika、detri由来のBAIが存在し、それぞれti'uとde'iです。こっ�
 
 mi klama la .tokion. ca lo cabdei - 私は今日東京に行く。
 
-deiはdjediのrafsiですね。cab-はcabna(今）のrafsiです。
-prulam-は purci（過去)+lamji(隣）から、bavlam-はbalvi(未来)+lamji(隣）からきています。
-このcab-, prulam-, bavlam- は便利で、jeftu(週)やmasti(月）やnanca(年）にもつきます。
+deiはdjediのrafsiですね。cab-はcabna（今）のrafsiです。
+prulam-は purci（過去）+lamji（隣）から、bavlam-はbalvi（未来）+lamji（隣）からきています。
+このcab-, prulam-, bavlam- は便利で、jeftu（週）やmasti（月）やnanca（年）にもつきます。
 ちなみに、masti、cacraのrafsiはそれぞれma'iとna'aです。
 
 {:.table .table-striped}
@@ -123,7 +123,8 @@ prulam-は purci（過去)+lamji(隣）から、bavlam-はbalvi(未来)+lamji(�
 |pavrelmasti　|１２月|
 
 接尾辞がmastiで、接頭辞が数字のrafsi形なのは曜日と同じです。
-mmやzmは禁則子音なのでその間にはyが挟んであります。
+mm, vpは禁則子音列なのでその間にはyが挟んであります。
+sozymastiはsozmastiとすると{so zmasti}と同じ発音になり、言文一致に反するのでyが入ります。
 数字の母音はa,e,i,o,uで繰り返されますが、それに応じてrafsi形にも規則性があります。
 a v
 e l
