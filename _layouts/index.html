@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<nav>
+	<ul class="pager">
+		{% if page.prulahi %}
+			<li class="previous"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.prulahi }}.html">前へ</a></li>
+		{% endif %}
+		{% if page.bavlahi %}
+			<li class="next"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.bavlahi }}.html">次へ</a></li>
+		{% endif %}
+	</ul>
+</nav>
+
+{{content}}
+
+<nav>
+	<ul class="pager">
+		{% if page.prulahi %}
+			<li class="previous"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.prulahi }}.html">前へ</a></li>
+		{% endif %}
+		{% if page.bavlahi %}
+			<li class="next"><a href="{{site.baseurl}}/article/nunctu{{page.mai}}/{{ page.bavlahi }}.html">次へ</a></li>
+		{% endif %}
+	</ul>
+</nav>

@@ -1,15 +1,25 @@
 ---
-layout: default
+layout: index
 title: はじめてのロジバン 第２版
+bavlahi: 0
 ---
 
 {% include icons.md %}
+
+<!--
+<style>
+img .mikan {
+width: 30%;
+}
+</style>-->
+![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.center-block width="200px"}
 
 # fi'i do .ui
 
 {:.alert .alert-info role="alert"}
 **ニューゲーム暫定完成しました！**  
 誤植や細かな修正を除けば完成しています！ 進化したはじロジをよろしくお願いします！
+
 
 ようこそ！「はじめてのロジバン」は、ロジバン入門講座です！
 
@@ -20,7 +30,6 @@ title: はじめてのロジバン 第２版
 このサイトでは、こしょん(kocon),そら(soran),セヴァン(sevan)といった女の子たちの会話をききながら、  
 楽しくロジバン文法の基礎を学ぶことができます。
 
-![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.img-responsive .center-block}
 
 
 # 登場人物
@@ -65,6 +74,7 @@ title: はじめてのロジバン 第２版
 
 # 更新履歴
 
+- 2016/10/29: 「つよコン」6章アップしました。（7章とともにここに書こうかと思っていましたが、一向に書き上がらないので先に…）それから、色々な誤字脱字を修正しました。ki'esai ke'u .sozysozbot. io
 - 2016/9/7: ニューゲームを総点検しました。[編集詳細](https://github.com/cogas/hajiloji/commit/676ba064d9183c2c3f112ea5ddffe504711aa2d7)。
 - 2016/9/5: レイアウトを一新しました。
 - 2016/8/24: [指摘](https://groups.google.com/d/msg/ponjo_lojbo_citno_girzu/nVv9M7N7yMk/ofTMS5nKEAAJ), [指摘2](https://groups.google.com/d/msg/ponjo_lojbo_citno_girzu/nVv9M7N7yMk/IjkqS-o6EgAJ) に従って加筆修正しました。 ki'e la .sozysozbot. joi le pendo be ri
