@@ -66,7 +66,7 @@ width: 30%;
 - [gismu liste](http://guskant.github.io/lojbo/gismu-cmavo/jpn-gimste.html){:target="blank"} : guskant氏による日本語のgismu定義集。便利！「ctrl + f」でページ内検索かけましょう。
 - [cmavo liste](http://guskant.github.io/lojbo/gismu-cmavo/jpn-mahoste.html){:target="blank"} : guskant氏による日本語のcmavo定義集。便利！
 - [lo gimste jo'u lo ma'oste](http://guskant.github.io/lojbo/gismu-cmavo.html){:target="blank"} : guskant氏による各国のgismu, cmavo リスト一覧。
-- [オフラインでロジバン辞書を使う](http://cogas.github.io/article/lojbo/jbo_goldendict.html){:target="blank"} : GoldenDictというフリーソフトを使ったやり方です。
+- [オフラインでロジバン辞書を使う](http://cogas.github.io/pages/lojbo/pilno_goldendict/){:target="blank"} : GoldenDictというフリーソフトを使ったやり方です。
 - [jvozba](http://jwodder.freeshell.org/lojban/jvozba.cgi){:target="blank"} : lujvo（合成語）を作るのに便利なツール。元となるtanruを入力するとそこから一番いい語形のlujvoを出力してくれます。
 - [ilmentufa](http://ilmen.tk/lojban/camxes.html){:target="blank"} : ロジバンパーサです。つまり、ロジバンの文の構文を解析してくれます。文法が不安なときはココ！
 {:.small}
