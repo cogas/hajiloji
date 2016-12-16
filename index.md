@@ -14,6 +14,7 @@ width: 30%;
 </style>-->
 ![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.center-block width="200px"}
 
+
 # fi'i do .ui
 
 {:.alert .alert-info role="alert"}
@@ -31,12 +32,8 @@ width: 30%;
 楽しくロジバン文法の基礎を学ぶことができます。
 
 
+[![]({{site.baseurl}}/assets/pixra/start_button.svg){:.center-block #startbutton}]({{site.baseurl}}/article/nunctu/0)
 
-# 登場人物
-
-![koc1]
-![sor2]
-![sev1]
 
 ## ただいま誤植・凡ミス鋭意訂正中です。
 

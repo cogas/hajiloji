@@ -79,3 +79,15 @@ a{
 .game{
   font-family: 'PixelMplus12';
 }
+
+#startbutton{
+  box-shadow:0 0 5px #fff, 0 0 5px #ccc, 0 0 1px #aaa;
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+@media screen and (max-width : 767px){
+  #startbutton{
+    width: 80%;
+  }
+}
