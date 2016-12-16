@@ -11,9 +11,11 @@ bavlahi: 0
 img .mikan {
 width: 30%;
 }
-</style>-->
+</style>
 ![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.center-block width="200px"}
+-->
 
+![]({{site.baseurl}}/assets/pixra/top/sora_nimre_let.gif){:.center-block width="500px"}
 
 # fi'i do .ui
 
