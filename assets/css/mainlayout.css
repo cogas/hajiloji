@@ -25,25 +25,6 @@ h3{
   border-bottom:  3px double #B2DFDB;
 }
 
-@media screen and (max-width : 512px){
-  h1{
-    font-size: 1.5em;
-  }
-  h2{
-    font-size: 1.2em;
-  }
-  h3{
-    font-size: 1em;
-  }
-  .icon{
-    width: 4em;
-  }
-  .pixra{
-    width: 90%;
-  }
-}
-
-
 /* 罫線 */
 hr{
 	margin-left: 10px -20px;
@@ -75,7 +56,6 @@ a{
 .subsection a{
     text-decoration: none;
 }
-
 
 #yesnoans{
   margin-left: 3em;
@@ -110,4 +90,22 @@ a{
   width: 500px;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+@media screen and (max-width : 512px){
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  .icon{
+    width: 4em;
+  }
+  .pixra{
+    width: 90%;
+  }
 }
