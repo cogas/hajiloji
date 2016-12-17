@@ -17,7 +17,7 @@ width: 30%;
 
 ![]({{site.baseurl}}/assets/pixra/top/sora_nimre_let.gif){:.center-block .pixra}
 
-# fi'i do .ui
+# fi'i do .ui ― ようこそ(^o^)
 
 {:.alert .alert-info role="alert"}
 **ニューゲーム暫定完成しました！**  
@@ -34,7 +34,7 @@ width: 30%;
 楽しくロジバン文法の基礎を学ぶことができます。
 
 
-[![]({{site.baseurl}}/assets/pixra/start_button.svg){:.center-block #startbutton}]({{site.baseurl}}/article/nunctu/0)
+[![]({{site.baseurl}}/assets/pixra/top/start_button.svg){:.center-block #startbutton}]({{site.baseurl}}/article/nunctu/0)
 
 
 ## ただいま誤植・凡ミス鋭意訂正中です。
