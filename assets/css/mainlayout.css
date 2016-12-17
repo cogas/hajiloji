@@ -91,3 +91,15 @@ a{
     width: 80%;
   }
 }
+
+.pixra{
+  width: 500px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width : 600px){
+  .pixra{
+    width: 80%;
+  }
+}

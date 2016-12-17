@@ -15,7 +15,7 @@ width: 30%;
 ![]({{site.baseurl}}/assets/pixra/fruit_orange.png){:.center-block width="200px"}
 -->
 
-![]({{site.baseurl}}/assets/pixra/top/sora_nimre_let.gif){:.center-block width="500px"}
+![]({{site.baseurl}}/assets/pixra/top/sora_nimre_let.gif){:.center-block .pixra}
 
 # fi'i do .ui
 
