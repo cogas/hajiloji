@@ -7,9 +7,9 @@ layout: default
 
 以下、編集用のメモ…
 
-## Font matter
+## Front matter
 
-基本的には、Font matter には次のことを書きます：
+基本的には、Front matter には次のことを書きます：
 
 ```  
 layout: post  
